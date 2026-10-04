@@ -1,0 +1,221 @@
+{
+  "targets": {
+    "calories_kcal": {
+      "mae_kcal": 400.12,
+      "rmse_kcal": 411.32,
+      "r2_score": -17.6281,
+      "mape_percent": 100.0,
+      "samples_evaluated": 4,
+      "mean_actual_kcal": 400.12,
+      "mean_predicted_kcal": 0.0,
+      "error_distribution": {
+        "p25": 318.9,
+        "median": 384.2,
+        "p75": 465.43,
+        "p90": 507.59,
+        "std": 95.3
+      }
+    },
+    "protein_g": {
+      "mae_g": 18.03,
+      "rmse_g": 22.98,
+      "r2_score": -1.5995,
+      "mape_percent": 100.0,
+      "samples_evaluated": 4,
+      "mean_actual_g": 18.03,
+      "mean_predicted_g": 0.0,
+      "error_distribution": {
+        "p25": 8.88,
+        "median": 12.45,
+        "p75": 21.6,
+        "p90": 33.84,
+        "std": 14.25
+      }
+    },
+    "carbohydrates_g": {
+      "mae_g": 40.99,
+      "rmse_g": 49.71,
+      "r2_score": -2.1229,
+      "mape_percent": 94.41,
+      "samples_evaluated": 4,
+      "mean_actual_g": 42.35,
+      "mean_predicted_g": 1.36,
+      "error_distribution": {
+        "p25": 15.31,
+        "median": 36.88,
+        "p75": 62.56,
+        "p90": 72.33,
+        "std": 28.13
+      }
+    },
+    "fat_g": {
+      "mae_g": 15.01,
+      "rmse_g": 15.83,
+      "r2_score": -8.8919,
+      "mape_percent": 83.41,
+      "samples_evaluated": 4,
+      "mean_actual_g": 17.62,
+      "mean_predicted_g": 2.61,
+      "error_distribution": {
+        "p25": 12.77,
+        "median": 16.44,
+        "p75": 18.68,
+        "p90": 19.58,
+        "std": 5.03
+      }
+    }
+  },
+  "per_food_composite_errors": {
+    "grilled_chicken_bowl": 2.6648,
+    "pasta_primavera": 3.7295,
+    "caesar_salad": 1.9635,
+    "apple_pastry": 2.9273
+  },
+  "best_predictions": [
+    {
+      "rank": 1,
+      "food_name": "caesar_salad",
+      "composite_error": 1.9635,
+      "actual": {
+        "calories_kcal": 296.4,
+        "protein_g": 10.1,
+        "carbohydrates_g": 12.7,
+        "fat_g": 22.8
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 2,
+      "food_name": "grilled_chicken_bowl",
+      "composite_error": 2.6648,
+      "actual": {
+        "calories_kcal": 326.4,
+        "protein_g": 42.0,
+        "carbohydrates_g": 18.0,
+        "fat_g": 9.6
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 3,
+      "food_name": "apple_pastry",
+      "composite_error": 2.9273,
+      "actual": {
+        "calories_kcal": 442.0,
+        "protein_g": 5.2,
+        "carbohydrates_g": 58.5,
+        "fat_g": 20.8
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 4,
+      "food_name": "pasta_primavera",
+      "composite_error": 3.7295,
+      "actual": {
+        "calories_kcal": 535.7,
+        "protein_g": 14.8,
+        "carbohydrates_g": 80.2,
+        "fat_g": 17.3
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    }
+  ],
+  "worst_predictions": [
+    {
+      "rank": 1,
+      "food_name": "pasta_primavera",
+      "composite_error": 3.7295,
+      "actual": {
+        "calories_kcal": 535.7,
+        "protein_g": 14.8,
+        "carbohydrates_g": 80.2,
+        "fat_g": 17.3
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 2,
+      "food_name": "apple_pastry",
+      "composite_error": 2.9273,
+      "actual": {
+        "calories_kcal": 442.0,
+        "protein_g": 5.2,
+        "carbohydrates_g": 58.5,
+        "fat_g": 20.8
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 3,
+      "food_name": "grilled_chicken_bowl",
+      "composite_error": 2.6648,
+      "actual": {
+        "calories_kcal": 326.4,
+        "protein_g": 42.0,
+        "carbohydrates_g": 18.0,
+        "fat_g": 9.6
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    },
+    {
+      "rank": 4,
+      "food_name": "caesar_salad",
+      "composite_error": 1.9635,
+      "actual": {
+        "calories_kcal": 296.4,
+        "protein_g": 10.1,
+        "carbohydrates_g": 12.7,
+        "fat_g": 22.8
+      },
+      "predicted": {
+        "calories_kcal": 0.0,
+        "protein_g": 0.0,
+        "carbohydrates_g": 1.4,
+        "fat_g": 2.6
+      }
+    }
+  ],
+  "plots_generated": [
+    "reports\\actual_vs_predicted_calories.png",
+    "reports\\actual_vs_predicted_protein.png",
+    "reports\\actual_vs_predicted_carbohydrates.png",
+    "reports\\actual_vs_predicted_fat.png",
+    "reports\\nutrient_error_distributions.png"
+  ]
+}

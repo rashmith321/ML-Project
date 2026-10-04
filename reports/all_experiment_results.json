@@ -1,0 +1,334 @@
+{
+  "timestamp": "2026-09-29T22:44:32",
+  "N2_nutrition_eval": {
+    "experiment": "N2_LargerFixture_CosineES",
+    "val_samples": 20,
+    "calories": {
+      "mae_kcal": 111.0238,
+      "rmse_kcal": 145.1595,
+      "r2_score": 0.6805,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 467.1861
+    },
+    "protein": {
+      "mae_g": 15.7332,
+      "rmse_g": 22.9706,
+      "r2_score": 0.2381,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 19.9966
+    },
+    "carbs": {
+      "mae_g": 20.683,
+      "rmse_g": 26.7654,
+      "r2_score": 0.6546,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 52.8878
+    },
+    "fat": {
+      "mae_g": 8.153,
+      "rmse_g": 10.1122,
+      "r2_score": 0.2498,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 17.6957
+    }
+  },
+  "ablation": [
+    {
+      "config": "A_image_only",
+      "use_class": false,
+      "use_seg": false,
+      "use_mass": false,
+      "use_depth": false,
+      "calories": {
+        "mae_kcal": 192.9147,
+        "rmse_kcal": 255.3818,
+        "r2_score": 0.0112,
+        "samples": 20,
+        "mean_actual": 485.81,
+        "mean_predicted": 341.8907
+      },
+      "protein": {
+        "mae_g": 16.8213,
+        "rmse_g": 24.9595,
+        "r2_score": 0.1005,
+        "samples": 20,
+        "mean_actual": 27.42,
+        "mean_predicted": 15.398
+      },
+      "carbs": {
+        "mae_g": 27.0598,
+        "rmse_g": 37.1934,
+        "r2_score": 0.333,
+        "samples": 20,
+        "mean_actual": 51.26,
+        "mean_predicted": 38.4423
+      },
+      "fat": {
+        "mae_g": 9.426,
+        "rmse_g": 11.7247,
+        "r2_score": -0.0085,
+        "samples": 20,
+        "mean_actual": 19.01,
+        "mean_predicted": 14.1423
+      }
+    },
+    {
+      "config": "B_image_class",
+      "use_class": true,
+      "use_seg": false,
+      "use_mass": false,
+      "use_depth": false,
+      "calories": {
+        "mae_kcal": 194.4177,
+        "rmse_kcal": 261.105,
+        "r2_score": -0.0337,
+        "samples": 20,
+        "mean_actual": 485.81,
+        "mean_predicted": 336.3189
+      },
+      "protein": {
+        "mae_g": 16.9221,
+        "rmse_g": 25.0306,
+        "r2_score": 0.0954,
+        "samples": 20,
+        "mean_actual": 27.42,
+        "mean_predicted": 15.1529
+      },
+      "carbs": {
+        "mae_g": 27.55,
+        "rmse_g": 38.3443,
+        "r2_score": 0.2911,
+        "samples": 20,
+        "mean_actual": 51.26,
+        "mean_predicted": 37.6777
+      },
+      "fat": {
+        "mae_g": 9.4481,
+        "rmse_g": 11.7799,
+        "r2_score": -0.018,
+        "samples": 20,
+        "mean_actual": 19.01,
+        "mean_predicted": 14.0169
+      }
+    },
+    {
+      "config": "C_image_class_seg",
+      "use_class": true,
+      "use_seg": true,
+      "use_mass": false,
+      "use_depth": false,
+      "calories": {
+        "mae_kcal": 194.4905,
+        "rmse_kcal": 261.1742,
+        "r2_score": -0.0342,
+        "samples": 20,
+        "mean_actual": 485.81,
+        "mean_predicted": 336.2187
+      },
+      "protein": {
+        "mae_g": 16.9283,
+        "rmse_g": 25.0394,
+        "r2_score": 0.0947,
+        "samples": 20,
+        "mean_actual": 27.42,
+        "mean_predicted": 15.1461
+      },
+      "carbs": {
+        "mae_g": 27.5451,
+        "rmse_g": 38.345,
+        "r2_score": 0.2911,
+        "samples": 20,
+        "mean_actual": 51.26,
+        "mean_predicted": 37.6649
+      },
+      "fat": {
+        "mae_g": 9.4497,
+        "rmse_g": 11.7821,
+        "r2_score": -0.0184,
+        "samples": 20,
+        "mean_actual": 19.01,
+        "mean_predicted": 14.014
+      }
+    },
+    {
+      "config": "D_image_class_seg_mass",
+      "use_class": true,
+      "use_seg": true,
+      "use_mass": true,
+      "use_depth": false,
+      "calories": {
+        "mae_kcal": 192.9752,
+        "rmse_kcal": 259.575,
+        "r2_score": -0.0216,
+        "samples": 20,
+        "mean_actual": 485.81,
+        "mean_predicted": 338.2386
+      },
+      "protein": {
+        "mae_g": 16.8539,
+        "rmse_g": 24.9221,
+        "r2_score": 0.1032,
+        "samples": 20,
+        "mean_actual": 27.42,
+        "mean_predicted": 15.2296
+      },
+      "carbs": {
+        "mae_g": 27.666,
+        "rmse_g": 38.3987,
+        "r2_score": 0.2891,
+        "samples": 20,
+        "mean_actual": 51.26,
+        "mean_predicted": 37.9516
+      },
+      "fat": {
+        "mae_g": 9.4296,
+        "rmse_g": 11.7418,
+        "r2_score": -0.0114,
+        "samples": 20,
+        "mean_actual": 19.01,
+        "mean_predicted": 14.0647
+      }
+    },
+    {
+      "config": "E_full_multimodal",
+      "use_class": true,
+      "use_seg": true,
+      "use_mass": true,
+      "use_depth": true,
+      "calories": {
+        "mae_kcal": 111.0238,
+        "rmse_kcal": 145.1595,
+        "r2_score": 0.6805,
+        "samples": 20,
+        "mean_actual": 485.81,
+        "mean_predicted": 467.1861
+      },
+      "protein": {
+        "mae_g": 15.7332,
+        "rmse_g": 22.9706,
+        "r2_score": 0.2381,
+        "samples": 20,
+        "mean_actual": 27.42,
+        "mean_predicted": 19.9966
+      },
+      "carbs": {
+        "mae_g": 20.683,
+        "rmse_g": 26.7654,
+        "r2_score": 0.6546,
+        "samples": 20,
+        "mean_actual": 51.26,
+        "mean_predicted": 52.8878
+      },
+      "fat": {
+        "mae_g": 8.153,
+        "rmse_g": 10.1122,
+        "r2_score": 0.2498,
+        "samples": 20,
+        "mean_actual": 19.01,
+        "mean_predicted": 17.6957
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "stage": "detection",
+      "metric": "precision",
+      "baseline": 0.0062,
+      "improved": 0.0062,
+      "difference": 0.0,
+      "notes": "Unchanged. Pretrained YOLOv8n with blacklist filter. No food-specific fine-tuning data available."
+    },
+    {
+      "stage": "detection",
+      "metric": "recall",
+      "baseline": 1.0,
+      "improved": 1.0,
+      "difference": 0.0,
+      "notes": "Unchanged."
+    },
+    {
+      "stage": "detection",
+      "metric": "map50",
+      "baseline": 0.1555,
+      "improved": 0.1555,
+      "difference": 0.0,
+      "notes": "Unchanged."
+    },
+    {
+      "stage": "segmentation",
+      "metric": "mean_iou",
+      "baseline": 0.0,
+      "improved": 0.992,
+      "difference": "+0.992",
+      "notes": "2 -> 24 samples. Cosine LR. DiceBCE adjusted weight. NOTE: metrics on synthetic fixture only."
+    },
+    {
+      "stage": "segmentation",
+      "metric": "mean_dice",
+      "baseline": 0.0,
+      "improved": 0.996,
+      "difference": "+0.996",
+      "notes": "Same caveat \u2014 fixture only."
+    },
+    {
+      "stage": "classification",
+      "metric": "top1_accuracy",
+      "baseline": 0.5,
+      "improved": 0.7,
+      "difference": "+0.20",
+      "notes": "8 -> 40 samples. Label smoothing. Cosine LR. 4 -> 8 classes. Fixture only."
+    },
+    {
+      "stage": "mass_estimation",
+      "metric": "mae_g",
+      "baseline": 353.89,
+      "improved": 57.9,
+      "difference": "-295.99g",
+      "notes": "4 -> 40 samples. SmoothL1 loss. Fixture only. R2 still negative (-3.9)."
+    },
+    {
+      "stage": "mass_estimation",
+      "metric": "r2_score",
+      "baseline": -118.72,
+      "improved": -3.9253,
+      "difference": "+114.79",
+      "notes": "Major improvement in R2 from fixture scale-up. Still negative (more data needed)."
+    },
+    {
+      "stage": "nutrition_calories",
+      "metric": "mae_kcal",
+      "baseline": 400.12,
+      "improved": 111.0238,
+      "difference": "-289.10",
+      "notes": "4 -> 80 samples (different fixtures \u2014 not directly comparable). R2=0.6805."
+    },
+    {
+      "stage": "nutrition_protein",
+      "metric": "mae_g",
+      "baseline": 18.03,
+      "improved": 15.7332,
+      "difference": "-2.30",
+      "notes": "Same caveat."
+    },
+    {
+      "stage": "nutrition_carbs",
+      "metric": "mae_g",
+      "baseline": 40.99,
+      "improved": 20.683,
+      "difference": "-20.31",
+      "notes": "Same caveat."
+    },
+    {
+      "stage": "nutrition_fat",
+      "metric": "mae_g",
+      "baseline": 15.01,
+      "improved": 8.153,
+      "difference": "-6.86",
+      "notes": "Same caveat."
+    }
+  ]
+}

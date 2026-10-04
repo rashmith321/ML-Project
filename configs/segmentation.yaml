@@ -1,0 +1,32 @@
+# Food Image Segmentation Configuration (Phase 3)
+# Configurable parameters for SAM-assisted and supervised U-Net segmentation
+
+model:
+  architecture: "unet"  # "sam" or "unet"
+  sam_checkpoint: "models/sam_vit_b_01ec64.pth"
+  sam_model_type: "vit_b"
+  unet_checkpoint: "models/segmentation/best_unet.pt"
+  in_channels: 3
+  out_channels: 1
+  threshold: 0.5
+  device: "cpu"
+
+training:
+  epochs: 10
+  batch_size: 4
+  img_size: [256, 256]
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  save_dir: "models/segmentation"
+  checkpoint_name: "best_unet.pt"
+
+evaluation:
+  threshold: 0.5
+  metrics_json: "reports/segmentation_metrics.json"
+  metrics_csv: "reports/segmentation_metrics.csv"
+
+inference:
+  detector_weights: "models/yolov8n.pt"
+  conf_threshold: 0.20
+  output_predictions: "outputs/segmentation/predictions.json"
+  visualizations_dir: "outputs/segmentation/visualizations"

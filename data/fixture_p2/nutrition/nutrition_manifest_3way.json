@@ -1,0 +1,3107 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0000_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0000_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 284.9,
+    "mask_features": [
+      0.3064,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      651.6,
+      49.6
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 583.4,
+    "protein_g": 71.2,
+    "carbohydrates_g": 42.7,
+    "fat_g": 14.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0001_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0001_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 219.8,
+    "mask_features": [
+      0.287,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      698.3,
+      48.0
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 523.2,
+    "protein_g": 13.2,
+    "carbohydrates_g": 87.9,
+    "fat_g": 13.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0003_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0003_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 114.7,
+    "mask_features": [
+      0.4975,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      614.7,
+      63.2
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 372.2,
+    "protein_g": 4.6,
+    "carbohydrates_g": 57.4,
+    "fat_g": 13.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0005_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0005_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 153.4,
+    "mask_features": [
+      0.5492,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      663.4,
+      66.4
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 167.3,
+    "protein_g": 6.1,
+    "carbohydrates_g": 18.4,
+    "fat_g": 7.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0006_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0006_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 319.2,
+    "mask_features": [
+      0.3579,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      648.7,
+      53.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 874.3,
+    "protein_g": 35.1,
+    "carbohydrates_g": 111.7,
+    "fat_g": 31.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0007_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0007_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 317.4,
+    "mask_features": [
+      0.576,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      633.7,
+      68.0
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 281.2,
+    "protein_g": 3.2,
+    "carbohydrates_g": 63.5,
+    "fat_g": 1.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0008_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0008_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 190.7,
+    "mask_features": [
+      0.4019,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      637.2,
+      56.8
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 390.7,
+    "protein_g": 47.7,
+    "carbohydrates_g": 28.6,
+    "fat_g": 9.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0013_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0013_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 213.5,
+    "mask_features": [
+      0.4605,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      649.7,
+      60.8
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 232.7,
+    "protein_g": 8.5,
+    "carbohydrates_g": 25.6,
+    "fat_g": 10.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0014_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0014_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 309.8,
+    "mask_features": [
+      0.6457,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      604.9,
+      72.0
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 849.0,
+    "protein_g": 34.1,
+    "carbohydrates_g": 108.4,
+    "fat_g": 31.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0015_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0015_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 124.1,
+    "mask_features": [
+      0.3064,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      647.9,
+      49.6
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 109.4,
+    "protein_g": 1.2,
+    "carbohydrates_g": 24.8,
+    "fat_g": 0.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0018_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0018_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 186.5,
+    "mask_features": [
+      0.3265,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      702.0,
+      51.2
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 298.4,
+    "protein_g": 9.3,
+    "carbohydrates_g": 14.9,
+    "fat_g": 22.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0021_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0021_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 247.1,
+    "mask_features": [
+      0.2156,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      696.5,
+      41.6
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 270.0,
+    "protein_g": 9.9,
+    "carbohydrates_g": 29.7,
+    "fat_g": 12.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0022_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0022_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 378.4,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      631.0,
+      69.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 1036.2,
+    "protein_g": 41.6,
+    "carbohydrates_g": 132.4,
+    "fat_g": 37.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0025_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0025_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 197.3,
+    "mask_features": [
+      0.5492,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      610.9,
+      66.4
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 469.0,
+    "protein_g": 11.8,
+    "carbohydrates_g": 78.9,
+    "fat_g": 11.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0026_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0026_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 109.3,
+    "mask_features": [
+      0.3368,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      690.8,
+      52.0
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 174.7,
+    "protein_g": 5.5,
+    "carbohydrates_g": 8.7,
+    "fat_g": 13.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0029_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0029_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 279.8,
+    "mask_features": [
+      0.2966,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      657.8,
+      48.8
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 305.2,
+    "protein_g": 11.2,
+    "carbohydrates_g": 33.6,
+    "fat_g": 14.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0030_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0030_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 364.0,
+    "mask_features": [
+      0.2775,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      704.3,
+      47.2
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 997.2,
+    "protein_g": 40.0,
+    "carbohydrates_g": 127.4,
+    "fat_g": 36.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0031_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0031_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 298.9,
+    "mask_features": [
+      0.3686,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      685.9,
+      54.4
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 264.7,
+    "protein_g": 3.0,
+    "carbohydrates_g": 59.8,
+    "fat_g": 1.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0032_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0032_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 366.7,
+    "mask_features": [
+      0.4727,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      673.8,
+      61.6
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 751.5,
+    "protein_g": 91.7,
+    "carbohydrates_g": 55.0,
+    "fat_g": 18.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0033_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0033_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 229.6,
+    "mask_features": [
+      0.3686,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      636.7,
+      54.4
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 546.6,
+    "protein_g": 13.8,
+    "carbohydrates_g": 91.8,
+    "fat_g": 13.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0034_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0034_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 168.5,
+    "mask_features": [
+      0.6315,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      599.5,
+      71.2
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 269.4,
+    "protein_g": 8.4,
+    "carbohydrates_g": 13.5,
+    "fat_g": 20.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0035_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0035_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 210.0,
+    "mask_features": [
+      0.4133,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      666.6,
+      57.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 680.4,
+    "protein_g": 8.4,
+    "carbohydrates_g": 105.0,
+    "fat_g": 25.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0036_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0036_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 308.6,
+    "mask_features": [
+      0.4133,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      645.3,
+      57.6
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 762.3,
+    "protein_g": 86.4,
+    "carbohydrates_g": 0.0,
+    "fat_g": 46.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0038_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0038_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 205.8,
+    "mask_features": [
+      0.259,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      667.7,
+      45.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 563.8,
+    "protein_g": 22.6,
+    "carbohydrates_g": 72.0,
+    "fat_g": 20.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0040_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0040_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 264.4,
+    "mask_features": [
+      0.7044,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      608.8,
+      75.2
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 542.0,
+    "protein_g": 66.1,
+    "carbohydrates_g": 39.7,
+    "fat_g": 13.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0041_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0041_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 197.7,
+    "mask_features": [
+      0.6602,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      592.6,
+      72.8
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 471.1,
+    "protein_g": 11.9,
+    "carbohydrates_g": 79.1,
+    "fat_g": 11.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0044_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0044_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 275.8,
+    "mask_features": [
+      0.6457,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      610.2,
+      72.0
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 681.4,
+    "protein_g": 77.2,
+    "carbohydrates_g": 0.0,
+    "fat_g": 41.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0045_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0045_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 235.8,
+    "mask_features": [
+      0.7347,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      583.0,
+      76.8
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 257.0,
+    "protein_g": 9.4,
+    "carbohydrates_g": 28.3,
+    "fat_g": 11.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0047_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0047_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 293.0,
+    "mask_features": [
+      0.1993,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      715.3,
+      40.0
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 259.5,
+    "protein_g": 2.9,
+    "carbohydrates_g": 58.6,
+    "fat_g": 1.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0049_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0049_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 332.2,
+    "mask_features": [
+      0.6747,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      608.5,
+      73.6
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 790.3,
+    "protein_g": 19.9,
+    "carbohydrates_g": 132.9,
+    "fat_g": 19.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0051_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0051_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 154.9,
+    "mask_features": [
+      0.4727,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      669.5,
+      61.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 502.2,
+    "protein_g": 6.2,
+    "carbohydrates_g": 77.5,
+    "fat_g": 18.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0052_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0052_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 211.1,
+    "mask_features": [
+      0.6457,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      606.1,
+      72.0
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 521.7,
+    "protein_g": 59.1,
+    "carbohydrates_g": 0.0,
+    "fat_g": 31.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0053_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0053_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 270.3,
+    "mask_features": [
+      0.3064,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      675.3,
+      49.6
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 294.3,
+    "protein_g": 10.8,
+    "carbohydrates_g": 32.4,
+    "fat_g": 13.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0055_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0055_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 217.5,
+    "mask_features": [
+      0.4484,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      661.5,
+      60.0
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 192.7,
+    "protein_g": 2.2,
+    "carbohydrates_g": 43.5,
+    "fat_g": 1.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0056_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0056_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 201.6,
+    "mask_features": [
+      0.5102,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      625.1,
+      64.0
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 413.3,
+    "protein_g": 50.4,
+    "carbohydrates_g": 30.2,
+    "fat_g": 10.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0057_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0057_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 186.2,
+    "mask_features": [
+      0.6457,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      621.5,
+      72.0
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 443.6,
+    "protein_g": 11.2,
+    "carbohydrates_g": 74.5,
+    "fat_g": 11.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0058_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0058_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 140.9,
+    "mask_features": [
+      0.3064,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      704.5,
+      49.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 225.3,
+    "protein_g": 7.0,
+    "carbohydrates_g": 11.3,
+    "fat_g": 16.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0059_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0059_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 158.0,
+    "mask_features": [
+      0.7501,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      633.9,
+      77.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 512.2,
+    "protein_g": 6.3,
+    "carbohydrates_g": 79.0,
+    "fat_g": 19.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0060_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0060_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 165.5,
+    "mask_features": [
+      0.4019,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      633.1,
+      56.8
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 408.4,
+    "protein_g": 46.3,
+    "carbohydrates_g": 0.0,
+    "fat_g": 24.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0061_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0061_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 149.6,
+    "mask_features": [
+      0.5492,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      639.3,
+      66.4
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 163.5,
+    "protein_g": 6.0,
+    "carbohydrates_g": 18.0,
+    "fat_g": 7.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0063_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0063_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 126.5,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      623.2,
+      69.6
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 111.8,
+    "protein_g": 1.3,
+    "carbohydrates_g": 25.3,
+    "fat_g": 0.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0066_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0066_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 180.1,
+    "mask_features": [
+      0.536,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      646.5,
+      65.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 288.0,
+    "protein_g": 9.0,
+    "carbohydrates_g": 14.4,
+    "fat_g": 21.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0068_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0068_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 329.3,
+    "mask_features": [
+      0.8457,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      583.8,
+      82.4
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 813.4,
+    "protein_g": 92.2,
+    "carbohydrates_g": 0.0,
+    "fat_g": 49.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0070_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0070_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 356.3,
+    "mask_features": [
+      0.7501,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      621.4,
+      77.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 976.0,
+    "protein_g": 39.2,
+    "carbohydrates_g": 124.7,
+    "fat_g": 35.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0072_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0072_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 324.8,
+    "mask_features": [
+      0.5102,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      659.9,
+      64.0
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 665.4,
+    "protein_g": 81.2,
+    "carbohydrates_g": 48.7,
+    "fat_g": 16.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0073_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0073_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 299.5,
+    "mask_features": [
+      0.6173,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      649.3,
+      70.4
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 713.2,
+    "protein_g": 18.0,
+    "carbohydrates_g": 119.8,
+    "fat_g": 18.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0074_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0074_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 181.5,
+    "mask_features": [
+      0.6747,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      603.9,
+      73.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 290.6,
+    "protein_g": 9.1,
+    "carbohydrates_g": 14.5,
+    "fat_g": 21.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0075_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0075_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 163.0,
+    "mask_features": [
+      0.4365,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      678.0,
+      59.2
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 528.4,
+    "protein_g": 6.5,
+    "carbohydrates_g": 81.5,
+    "fat_g": 19.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0077_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0077_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 264.1,
+    "mask_features": [
+      0.25,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      701.3,
+      44.8
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 288.0,
+    "protein_g": 10.6,
+    "carbohydrates_g": 31.7,
+    "fat_g": 13.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0078_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0078_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 254.8,
+    "mask_features": [
+      0.4484,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      642.8,
+      60.0
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 698.3,
+    "protein_g": 28.0,
+    "carbohydrates_g": 89.2,
+    "fat_g": 25.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0079_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0079_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 179.7,
+    "mask_features": [
+      0.7656,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      600.0,
+      78.4
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 158.9,
+    "protein_g": 1.8,
+    "carbohydrates_g": 35.9,
+    "fat_g": 0.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0080_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0080_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 149.6,
+    "mask_features": [
+      0.4365,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      644.5,
+      59.2
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 306.7,
+    "protein_g": 37.4,
+    "carbohydrates_g": 22.4,
+    "fat_g": 7.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0081_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0081_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 193.7,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      650.8,
+      69.6
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 460.8,
+    "protein_g": 11.6,
+    "carbohydrates_g": 77.5,
+    "fat_g": 11.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0083_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0083_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 223.1,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      618.9,
+      69.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 722.8,
+    "protein_g": 8.9,
+    "carbohydrates_g": 111.5,
+    "fat_g": 26.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0086_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0086_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 176.8,
+    "mask_features": [
+      0.4133,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      635.9,
+      57.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 484.5,
+    "protein_g": 19.4,
+    "carbohydrates_g": 61.9,
+    "fat_g": 17.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0088_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0088_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 366.8,
+    "mask_features": [
+      0.6895,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      628.9,
+      74.4
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 751.5,
+    "protein_g": 91.7,
+    "carbohydrates_g": 55.0,
+    "fat_g": 18.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0091_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0091_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 133.3,
+    "mask_features": [
+      0.6173,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      650.3,
+      70.4
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 432.0,
+    "protein_g": 5.3,
+    "carbohydrates_g": 66.7,
+    "fat_g": 16.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0092_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0092_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 171.5,
+    "mask_features": [
+      0.4365,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      625.6,
+      59.2
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 423.3,
+    "protein_g": 48.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 25.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0093_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0093_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 155.2,
+    "mask_features": [
+      0.5896,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      605.6,
+      68.8
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 169.4,
+    "protein_g": 6.2,
+    "carbohydrates_g": 18.6,
+    "fat_g": 7.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0096_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0096_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 156.7,
+    "mask_features": [
+      0.6602,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      624.9,
+      72.8
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 321.0,
+    "protein_g": 39.2,
+    "carbohydrates_g": 23.5,
+    "fat_g": 7.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0097_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0097_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 368.2,
+    "mask_features": [
+      0.4365,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      676.6,
+      59.2
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 876.5,
+    "protein_g": 22.1,
+    "carbohydrates_g": 147.3,
+    "fat_g": 22.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0098_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0098_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 103.2,
+    "mask_features": [
+      0.259,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      683.2,
+      45.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 165.6,
+    "protein_g": 5.2,
+    "carbohydrates_g": 8.3,
+    "fat_g": 12.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0099_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0099_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 165.8,
+    "mask_features": [
+      0.2412,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      683.9,
+      44.0
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 537.1,
+    "protein_g": 6.6,
+    "carbohydrates_g": 82.9,
+    "fat_g": 19.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0100_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0100_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 270.5,
+    "mask_features": [
+      0.5896,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      603.8,
+      68.8
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 668.2,
+    "protein_g": 75.7,
+    "carbohydrates_g": 0.0,
+    "fat_g": 40.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0102_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0102_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 350.1,
+    "mask_features": [
+      0.536,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      612.5,
+      65.6
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 959.0,
+    "protein_g": 38.5,
+    "carbohydrates_g": 122.5,
+    "fat_g": 35.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0103_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0103_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 296.0,
+    "mask_features": [
+      0.3265,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      684.2,
+      51.2
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 262.3,
+    "protein_g": 3.0,
+    "carbohydrates_g": 59.2,
+    "fat_g": 1.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0108_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0108_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 111.7,
+    "mask_features": [
+      0.25,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      665.8,
+      44.8
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 276.4,
+    "protein_g": 31.3,
+    "carbohydrates_g": 0.0,
+    "fat_g": 16.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0112_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0112_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 202.6,
+    "mask_features": [
+      0.6747,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      632.6,
+      73.6
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 414.9,
+    "protein_g": 50.6,
+    "carbohydrates_g": 30.4,
+    "fat_g": 10.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0114_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0114_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 178.9,
+    "mask_features": [
+      0.523,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      645.9,
+      64.8
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 286.3,
+    "protein_g": 8.9,
+    "carbohydrates_g": 14.3,
+    "fat_g": 21.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0115_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0115_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 194.4,
+    "mask_features": [
+      0.4727,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      633.2,
+      61.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 629.7,
+    "protein_g": 7.8,
+    "carbohydrates_g": 97.2,
+    "fat_g": 23.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0116_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0116_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 251.8,
+    "mask_features": [
+      0.4727,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      627.3,
+      61.6
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 622.2,
+    "protein_g": 70.5,
+    "carbohydrates_g": 0.0,
+    "fat_g": 37.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0118_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0118_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 263.0,
+    "mask_features": [
+      0.3795,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      636.0,
+      55.2
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 720.3,
+    "protein_g": 28.9,
+    "carbohydrates_g": 92.0,
+    "fat_g": 26.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0002_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0002_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 215.7,
+    "mask_features": [
+      0.2966,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      668.6,
+      48.8
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 345.5,
+    "protein_g": 10.8,
+    "carbohydrates_g": 17.3,
+    "fat_g": 25.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0004_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0004_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 160.1,
+    "mask_features": [
+      0.7501,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      588.6,
+      77.6
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 395.2,
+    "protein_g": 44.8,
+    "carbohydrates_g": 0.0,
+    "fat_g": 24.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0009_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0009_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 198.0,
+    "mask_features": [
+      0.2156,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      666.7,
+      41.6
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 471.5,
+    "protein_g": 11.9,
+    "carbohydrates_g": 79.2,
+    "fat_g": 11.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0012_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0012_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 228.7,
+    "mask_features": [
+      0.536,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      620.5,
+      65.6
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 564.7,
+    "protein_g": 64.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 34.3,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0017_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0017_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 179.1,
+    "mask_features": [
+      0.4133,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      637.5,
+      57.6
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 425.5,
+    "protein_g": 10.7,
+    "carbohydrates_g": 71.6,
+    "fat_g": 10.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0019_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0019_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 200.4,
+    "mask_features": [
+      0.2682,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      654.1,
+      46.4
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 648.8,
+    "protein_g": 8.0,
+    "carbohydrates_g": 100.2,
+    "fat_g": 24.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0020_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0020_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 195.9,
+    "mask_features": [
+      0.3368,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      643.5,
+      52.0
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 484.2,
+    "protein_g": 54.9,
+    "carbohydrates_g": 0.0,
+    "fat_g": 29.4,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0023_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0023_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 225.0,
+    "mask_features": [
+      0.6315,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      648.1,
+      71.2
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 198.7,
+    "protein_g": 2.2,
+    "carbohydrates_g": 45.0,
+    "fat_g": 1.1,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0024_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0024_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 127.3,
+    "mask_features": [
+      0.2239,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      686.2,
+      42.4
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 261.2,
+    "protein_g": 31.8,
+    "carbohydrates_g": 19.1,
+    "fat_g": 6.4,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0027_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0027_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 88.8,
+    "mask_features": [
+      0.1914,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      672.6,
+      39.2
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 288.3,
+    "protein_g": 3.6,
+    "carbohydrates_g": 44.4,
+    "fat_g": 10.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0028_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0028_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 126.6,
+    "mask_features": [
+      0.2074,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      686.5,
+      40.8
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 312.6,
+    "protein_g": 35.4,
+    "carbohydrates_g": 0.0,
+    "fat_g": 19.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0037_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0037_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 188.4,
+    "mask_features": [
+      0.4484,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      677.1,
+      60.0
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 205.0,
+    "protein_g": 7.5,
+    "carbohydrates_g": 22.6,
+    "fat_g": 9.4,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0043_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0043_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 136.1,
+    "mask_features": [
+      0.2156,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      687.1,
+      41.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 440.3,
+    "protein_g": 5.4,
+    "carbohydrates_g": 68.0,
+    "fat_g": 16.3,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0046_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0046_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 260.0,
+    "mask_features": [
+      0.3164,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      689.1,
+      50.4
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 712.4,
+    "protein_g": 28.6,
+    "carbohydrates_g": 91.0,
+    "fat_g": 26.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0062_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0062_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 260.1,
+    "mask_features": [
+      0.5492,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      614.4,
+      66.4
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 712.4,
+    "protein_g": 28.6,
+    "carbohydrates_g": 91.0,
+    "fat_g": 26.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0064_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0064_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 296.8,
+    "mask_features": [
+      0.5625,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      651.6,
+      67.2
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 608.0,
+    "protein_g": 74.2,
+    "carbohydrates_g": 44.5,
+    "fat_g": 14.8,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0069_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0069_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 238.7,
+    "mask_features": [
+      0.7044,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      589.0,
+      75.2
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 259.5,
+    "protein_g": 9.5,
+    "carbohydrates_g": 28.6,
+    "fat_g": 11.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0095_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0095_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 327.3,
+    "mask_features": [
+      0.2412,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      675.9,
+      44.0
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 289.6,
+    "protein_g": 3.3,
+    "carbohydrates_g": 65.5,
+    "fat_g": 1.6,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0106_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0106_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 99.0,
+    "mask_features": [
+      0.5896,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      628.7,
+      68.8
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 158.7,
+    "protein_g": 5.0,
+    "carbohydrates_g": 7.9,
+    "fat_g": 11.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0107_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0107_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 126.8,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      632.0,
+      69.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 410.8,
+    "protein_g": 5.1,
+    "carbohydrates_g": 63.4,
+    "fat_g": 15.2,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0109_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0109_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 206.5,
+    "mask_features": [
+      0.7195,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      635.3,
+      76.0
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 225.1,
+    "protein_g": 8.3,
+    "carbohydrates_g": 24.8,
+    "fat_g": 10.3,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0111_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0111_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 286.3,
+    "mask_features": [
+      0.7972,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      593.7,
+      80.0
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 253.4,
+    "protein_g": 2.9,
+    "carbohydrates_g": 57.3,
+    "fat_g": 1.4,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0113_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0113_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 255.3,
+    "mask_features": [
+      0.2412,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      706.4,
+      44.0
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 607.3,
+    "protein_g": 15.3,
+    "carbohydrates_g": 102.1,
+    "fat_g": 15.3,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0119_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0119_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 130.8,
+    "mask_features": [
+      0.3164,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      683.4,
+      50.4
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 116.3,
+    "protein_g": 1.3,
+    "carbohydrates_g": 26.2,
+    "fat_g": 0.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0010_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0010_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 219.7,
+    "mask_features": [
+      0.3265,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      694.6,
+      51.2
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 352.0,
+    "protein_g": 11.0,
+    "carbohydrates_g": 17.6,
+    "fat_g": 26.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0011_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0011_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 114.5,
+    "mask_features": [
+      0.4727,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      661.8,
+      61.6
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 370.5,
+    "protein_g": 4.6,
+    "carbohydrates_g": 57.2,
+    "fat_g": 13.7,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0016_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0016_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 207.6,
+    "mask_features": [
+      0.5896,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      609.4,
+      68.8
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 425.6,
+    "protein_g": 51.9,
+    "carbohydrates_g": 31.1,
+    "fat_g": 10.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0039_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0039_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 263.2,
+    "mask_features": [
+      0.259,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      683.9,
+      45.6
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 232.5,
+    "protein_g": 2.6,
+    "carbohydrates_g": 52.6,
+    "fat_g": 1.3,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0042_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0042_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 141.4,
+    "mask_features": [
+      0.7813,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      575.9,
+      79.2
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 226.6,
+    "protein_g": 7.1,
+    "carbohydrates_g": 11.3,
+    "fat_g": 17.0,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0048_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0048_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 362.4,
+    "mask_features": [
+      0.259,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      666.1,
+      45.6
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 742.9,
+    "protein_g": 90.6,
+    "carbohydrates_g": 54.4,
+    "fat_g": 18.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0050_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0050_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 259.5,
+    "mask_features": [
+      0.6034,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      598.5,
+      69.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 415.1,
+    "protein_g": 13.0,
+    "carbohydrates_g": 20.8,
+    "fat_g": 31.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0054_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0054_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 239.4,
+    "mask_features": [
+      0.7656,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      617.2,
+      78.4
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 655.5,
+    "protein_g": 26.3,
+    "carbohydrates_g": 83.8,
+    "fat_g": 23.9,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0065_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0065_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 171.4,
+    "mask_features": [
+      0.536,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      662.6,
+      65.6
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 408.3,
+    "protein_g": 10.3,
+    "carbohydrates_g": 68.6,
+    "fat_g": 10.3,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0067_apple_pastry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0067_apple_pastry.png",
+    "food_name": "apple_pastry",
+    "class_id": 3,
+    "mass_g": 204.1,
+    "mask_features": [
+      0.5896,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      614.7,
+      68.8
+    ],
+    "ingredients": [
+      "apple",
+      "dough",
+      "butter"
+    ],
+    "calories_kcal": 661.3,
+    "protein_g": 8.2,
+    "carbohydrates_g": 102.0,
+    "fat_g": 24.5,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0071_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0071_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 247.6,
+    "mask_features": [
+      0.3265,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      679.8,
+      51.2
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 218.8,
+    "protein_g": 2.5,
+    "carbohydrates_g": 49.5,
+    "fat_g": 1.2,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0076_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0076_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 301.3,
+    "mask_features": [
+      0.3906,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      669.8,
+      56.0
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 744.4,
+    "protein_g": 84.4,
+    "carbohydrates_g": 0.0,
+    "fat_g": 45.2,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0082_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0082_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 115.8,
+    "mask_features": [
+      0.4484,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      676.7,
+      60.0
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 185.5,
+    "protein_g": 5.8,
+    "carbohydrates_g": 9.3,
+    "fat_g": 13.9,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0084_beef_steak.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0084_beef_steak.png",
+    "food_name": "beef_steak",
+    "class_id": 4,
+    "mass_g": 189.0,
+    "mask_features": [
+      0.1993,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      716.5,
+      40.0
+    ],
+    "ingredients": [
+      "beef",
+      "oil",
+      "garlic"
+    ],
+    "calories_kcal": 467.2,
+    "protein_g": 52.9,
+    "carbohydrates_g": 0.0,
+    "fat_g": 28.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0085_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0085_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 146.0,
+    "mask_features": [
+      0.2775,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      673.9,
+      47.2
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 158.9,
+    "protein_g": 5.8,
+    "carbohydrates_g": 17.5,
+    "fat_g": 7.3,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0087_fruit_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0087_fruit_bowl.png",
+    "food_name": "fruit_bowl",
+    "class_id": 7,
+    "mass_g": 311.1,
+    "mask_features": [
+      0.7656,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      632.8,
+      78.4
+    ],
+    "ingredients": [
+      "apple"
+    ],
+    "calories_kcal": 275.6,
+    "protein_g": 3.1,
+    "carbohydrates_g": 62.2,
+    "fat_g": 1.6,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0089_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0089_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 228.6,
+    "mask_features": [
+      0.2412,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      687.9,
+      44.0
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 543.7,
+    "protein_g": 13.7,
+    "carbohydrates_g": 91.4,
+    "fat_g": 13.7,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0090_caesar_salad.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0090_caesar_salad.png",
+    "food_name": "caesar_salad",
+    "class_id": 2,
+    "mass_g": 216.2,
+    "mask_features": [
+      0.259,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      688.3,
+      45.6
+    ],
+    "ingredients": [
+      "lettuce",
+      "cheese",
+      "garlic"
+    ],
+    "calories_kcal": 345.5,
+    "protein_g": 10.8,
+    "carbohydrates_g": 17.3,
+    "fat_g": 25.9,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0094_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0094_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 298.1,
+    "mask_features": [
+      0.287,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      709.0,
+      48.0
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 816.6,
+    "protein_g": 32.8,
+    "carbohydrates_g": 104.3,
+    "fat_g": 29.8,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0101_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0101_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 247.8,
+    "mask_features": [
+      0.536,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      645.9,
+      65.6
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 270.0,
+    "protein_g": 9.9,
+    "carbohydrates_g": 29.7,
+    "fat_g": 12.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0104_grilled_chicken_bowl.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0104_grilled_chicken_bowl.png",
+    "food_name": "grilled_chicken_bowl",
+    "class_id": 0,
+    "mass_g": 202.2,
+    "mask_features": [
+      0.2775,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      657.5,
+      47.2
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "garlic"
+    ],
+    "calories_kcal": 414.1,
+    "protein_g": 50.5,
+    "carbohydrates_g": 30.3,
+    "fat_g": 10.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0105_pasta_primavera.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0105_pasta_primavera.png",
+    "food_name": "pasta_primavera",
+    "class_id": 1,
+    "mass_g": 309.1,
+    "mask_features": [
+      0.3686,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      679.3,
+      54.4
+    ],
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 734.9,
+    "protein_g": 18.5,
+    "carbohydrates_g": 123.6,
+    "fat_g": 18.5,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0110_cheese_pizza.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0110_cheese_pizza.png",
+    "food_name": "cheese_pizza",
+    "class_id": 6,
+    "mass_g": 381.4,
+    "mask_features": [
+      0.4019,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      647.5,
+      56.8
+    ],
+    "ingredients": [
+      "dough",
+      "tomato",
+      "cheese"
+    ],
+    "calories_kcal": 1044.9,
+    "protein_g": 42.0,
+    "carbohydrates_g": 133.5,
+    "fat_g": 38.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/images/nutrition_0117_vegetable_stir_fry.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/nutrition/masks/nutrition_0117_vegetable_stir_fry.png",
+    "food_name": "vegetable_stir_fry",
+    "class_id": 5,
+    "mass_g": 221.0,
+    "mask_features": [
+      0.4365,
+      1.0,
+      0.785
+    ],
+    "depth_features": [
+      648.3,
+      59.2
+    ],
+    "ingredients": [
+      "broccoli",
+      "pepper",
+      "onion",
+      "oil"
+    ],
+    "calories_kcal": 241.1,
+    "protein_g": 8.8,
+    "carbohydrates_g": 26.5,
+    "fat_g": 11.1,
+    "split": "test"
+  }
+]

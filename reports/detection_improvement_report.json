@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-09-30T23:12:35",
+  "step_1_baseline": {
+    "val": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "map50": 0.0,
+      "map50_95": 0.0
+    },
+    "test": {
+      "precision": 0.0419,
+      "recall": 0.1412,
+      "map50": 0.0472,
+      "map50_95": 0.0288
+    }
+  },
+  "experiments": {
+    "Baseline": {
+      "name": "Pretrained_COCO_YOLOv8n",
+      "desc": "COCO pretrained YOLOv8n without food fine-tuning",
+      "imgsz": 480,
+      "weights": "models/yolov8n.pt",
+      "val": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map50": 0.0,
+        "map50_95": 0.0
+      }
+    },
+    "D1": {
+      "name": "D1_baseline_transfer",
+      "desc": "Step 1 & 4 Transfer Learning: SGD (lr0=0.01, imgsz=480, 10 ep)",
+      "imgsz": 480,
+      "weights": "models\\detection\\D1_baseline_transfer_best.pt",
+      "val": {
+        "precision": 0.9324,
+        "recall": 0.1197,
+        "map50": 0.3394,
+        "map50_95": 0.3305
+      }
+    },
+    "D2": {
+      "name": "D2_improved_augmentation",
+      "desc": "Step 3 Augmentation: Rot 10 deg, Scale 0.25, Translate 0.1, HSV, Mosaic 0.2",
+      "imgsz": 480,
+      "weights": "models\\detection\\D2_improved_augmentation_best.pt",
+      "val": {
+        "precision": 0.7082,
+        "recall": 0.1656,
+        "map50": 0.2702,
+        "map50_95": 0.1974
+      }
+    },
+    "D3": {
+      "name": "D3_higher_resolution",
+      "desc": "Step 5 Resolution: 640x640 input resolution vs 480x480",
+      "imgsz": 640,
+      "weights": "models\\detection\\D3_higher_resolution_best.pt",
+      "val": {
+        "precision": 0.0074,
+        "recall": 0.894,
+        "map50": 0.1329,
+        "map50_95": 0.092
+      }
+    },
+    "D4": {
+      "name": "D4_adamw_cosine_lr",
+      "desc": "Step 6 Training: AdamW optimizer + Cosine LR schedule + weight decay",
+      "imgsz": 480,
+      "weights": "models\\detection\\D4_adamw_cosine_lr_best.pt",
+      "val": {
+        "precision": 0.0169,
+        "recall": 0.5229,
+        "map50": 0.0877,
+        "map50_95": 0.0661
+      }
+    },
+    "D5": {
+      "name": "D5_yolov8s_capacity",
+      "desc": "Step 4 Model Capacity: Stronger YOLOv8s backbone (11.2M params vs 3.2M)",
+      "imgsz": 480,
+      "weights": "models\\detection\\D5_yolov8s_capacity_best.pt",
+      "val": {
+        "precision": 0.0722,
+        "recall": 0.3705,
+        "map50": 0.1095,
+        "map50_95": 0.1047
+      }
+    }
+  },
+  "step_7_threshold_analysis": {
+    "optimal_confidence": 0.01,
+    "optimal_f1": 0.3109,
+    "pr_plot": "reports\\detection\\pr_curves.png"
+  },
+  "step_8_error_analysis": {
+    "true_positives": 30,
+    "false_positives": 96,
+    "false_negatives": 48,
+    "poor_localization": 0,
+    "confusions": {
+      "banana -> cup": 3,
+      "banana -> donut": 2,
+      "cake -> pizza": 2,
+      "bowl -> pizza": 4,
+      "cake -> apple": 1,
+      "bowl -> apple": 5,
+      "banana -> sandwich": 1,
+      "banana -> cake": 2,
+      "bowl -> cake": 6,
+      "bowl -> sandwich": 1,
+      "cup -> donut": 1,
+      "cup -> cake": 1,
+      "cup -> bowl": 1,
+      "donut -> cake": 2,
+      "sandwich -> donut": 3,
+      "sandwich -> cake": 2,
+      "carrot -> orange": 2,
+      "carrot -> donut": 1,
+      "carrot -> cup": 1,
+      "carrot -> cake": 2,
+      "sandwich -> broccoli": 1,
+      "bowl -> hot_dog": 1,
+      "orange -> carrot": 1,
+      "cake -> cup": 1,
+      "carrot -> pizza": 2,
+      "apple -> pizza": 4,
+      "bowl -> orange": 1,
+      "apple -> cake": 1,
+      "banana -> orange": 1,
+      "pizza -> hot_dog": 1,
+      "carrot -> bowl": 1,
+      "hot_dog -> apple": 1,
+      "hot_dog -> pizza": 1,
+      "sandwich -> cup": 1,
+      "orange -> pizza": 1,
+      "sandwich -> orange": 1
+    },
+    "visualizations": "reports\\detection\\error_analysis"
+  },
+  "step_9_model_selection": {
+    "best_experiment": "D1",
+    "best_model_name": "D1_baseline_transfer",
+    "best_checkpoint": "models\\detection\\best\\best.pt",
+    "val_map50": 0.3394
+  },
+  "step_10_final_test": {
+    "baseline": {
+      "precision": 0.0419,
+      "recall": 0.1412,
+      "map50": 0.0472,
+      "map50_95": 0.0288
+    },
+    "improved": {
+      "precision": 0.8283,
+      "recall": 0.0648,
+      "map50": 0.2852,
+      "map50_95": 0.2744
+    },
+    "delta_map50": 0.238,
+    "delta_map50_95": 0.2456,
+    "verdict": "GENUINE IMPROVEMENT CONFIRMED"
+  }
+}

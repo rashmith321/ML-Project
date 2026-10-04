@@ -1,0 +1,29 @@
+# Configuration for Multi-Nutrient Estimation Module (Phase 7)
+
+model:
+  backbone: "efficientnet_b0"
+  pretrained: true
+  dropout: 0.2
+  input_resolution: 224
+  num_classes: 105
+  num_ingredients: 50
+  fusion_hidden_dim: 512
+  trunk_hidden_dim: 256
+
+# Target scaling factors for balanced gradient backpropagation:
+# Prevents calorie magnitude (~100-1500) from dominating protein/fat/carb learning (~5-60)
+targets:
+  names: ["calories_kcal", "protein_g", "carbohydrates_g", "fat_g"]
+  scale_factors: [500.0, 30.0, 50.0, 25.0]
+
+training:
+  epochs: 5
+  batch_size: 8
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  loss: "normalized_smooth_l1"
+
+paths:
+  weights: "models/nutrition/best_nutrient_model.pt"
+  output_dir: "outputs/nutrition"
+  reports_dir: "reports"

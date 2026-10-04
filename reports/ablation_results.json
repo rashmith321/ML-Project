@@ -1,0 +1,197 @@
+[
+  {
+    "config": "A_image_only",
+    "use_class": false,
+    "use_seg": false,
+    "use_mass": false,
+    "use_depth": false,
+    "calories": {
+      "mae_kcal": 192.9147,
+      "rmse_kcal": 255.3818,
+      "r2_score": 0.0112,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 341.8907
+    },
+    "protein": {
+      "mae_g": 16.8213,
+      "rmse_g": 24.9595,
+      "r2_score": 0.1005,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 15.398
+    },
+    "carbs": {
+      "mae_g": 27.0598,
+      "rmse_g": 37.1934,
+      "r2_score": 0.333,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 38.4423
+    },
+    "fat": {
+      "mae_g": 9.426,
+      "rmse_g": 11.7247,
+      "r2_score": -0.0085,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 14.1423
+    }
+  },
+  {
+    "config": "B_image_class",
+    "use_class": true,
+    "use_seg": false,
+    "use_mass": false,
+    "use_depth": false,
+    "calories": {
+      "mae_kcal": 194.4177,
+      "rmse_kcal": 261.105,
+      "r2_score": -0.0337,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 336.3189
+    },
+    "protein": {
+      "mae_g": 16.9221,
+      "rmse_g": 25.0306,
+      "r2_score": 0.0954,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 15.1529
+    },
+    "carbs": {
+      "mae_g": 27.55,
+      "rmse_g": 38.3443,
+      "r2_score": 0.2911,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 37.6777
+    },
+    "fat": {
+      "mae_g": 9.4481,
+      "rmse_g": 11.7799,
+      "r2_score": -0.018,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 14.0169
+    }
+  },
+  {
+    "config": "C_image_class_seg",
+    "use_class": true,
+    "use_seg": true,
+    "use_mass": false,
+    "use_depth": false,
+    "calories": {
+      "mae_kcal": 194.4905,
+      "rmse_kcal": 261.1742,
+      "r2_score": -0.0342,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 336.2187
+    },
+    "protein": {
+      "mae_g": 16.9283,
+      "rmse_g": 25.0394,
+      "r2_score": 0.0947,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 15.1461
+    },
+    "carbs": {
+      "mae_g": 27.5451,
+      "rmse_g": 38.345,
+      "r2_score": 0.2911,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 37.6649
+    },
+    "fat": {
+      "mae_g": 9.4497,
+      "rmse_g": 11.7821,
+      "r2_score": -0.0184,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 14.014
+    }
+  },
+  {
+    "config": "D_image_class_seg_mass",
+    "use_class": true,
+    "use_seg": true,
+    "use_mass": true,
+    "use_depth": false,
+    "calories": {
+      "mae_kcal": 192.9752,
+      "rmse_kcal": 259.575,
+      "r2_score": -0.0216,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 338.2386
+    },
+    "protein": {
+      "mae_g": 16.8539,
+      "rmse_g": 24.9221,
+      "r2_score": 0.1032,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 15.2296
+    },
+    "carbs": {
+      "mae_g": 27.666,
+      "rmse_g": 38.3987,
+      "r2_score": 0.2891,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 37.9516
+    },
+    "fat": {
+      "mae_g": 9.4296,
+      "rmse_g": 11.7418,
+      "r2_score": -0.0114,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 14.0647
+    }
+  },
+  {
+    "config": "E_full_multimodal",
+    "use_class": true,
+    "use_seg": true,
+    "use_mass": true,
+    "use_depth": true,
+    "calories": {
+      "mae_kcal": 111.0238,
+      "rmse_kcal": 145.1595,
+      "r2_score": 0.6805,
+      "samples": 20,
+      "mean_actual": 485.81,
+      "mean_predicted": 467.1861
+    },
+    "protein": {
+      "mae_g": 15.7332,
+      "rmse_g": 22.9706,
+      "r2_score": 0.2381,
+      "samples": 20,
+      "mean_actual": 27.42,
+      "mean_predicted": 19.9966
+    },
+    "carbs": {
+      "mae_g": 20.683,
+      "rmse_g": 26.7654,
+      "r2_score": 0.6546,
+      "samples": 20,
+      "mean_actual": 51.26,
+      "mean_predicted": 52.8878
+    },
+    "fat": {
+      "mae_g": 8.153,
+      "rmse_g": 10.1122,
+      "r2_score": 0.2498,
+      "samples": 20,
+      "mean_actual": 19.01,
+      "mean_predicted": 17.6957
+    }
+  }
+]

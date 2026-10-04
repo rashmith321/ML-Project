@@ -1,0 +1,8 @@
+path: C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_detection
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: apple
+  1: bread
+  2: bowl

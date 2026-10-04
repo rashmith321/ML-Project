@@ -1,0 +1,18 @@
+{
+  "mass_metrics": {
+    "mae_g": 353.89,
+    "rmse_g": 355.33,
+    "r2_score": -118.7206,
+    "samples_evaluated": 4,
+    "mean_actual_g": 355.75,
+    "mean_predicted_g": 1.86
+  },
+  "volume_metrics": {
+    "mae_cm3": 416.34,
+    "rmse_cm3": 418.04,
+    "r2_score": -118.7267,
+    "samples_evaluated": 4,
+    "mean_actual_cm3": 418.53,
+    "mean_predicted_cm3": 2.19
+  }
+}

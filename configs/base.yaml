@@ -1,0 +1,53 @@
+# Base config: dataset ROLES only, no paths (paths come from env-specific configs).
+# Every dataset entry documents its purpose per DATASET_PLAN.md — do not add a
+# dataset here without also updating DATASET_PLAN.md.
+
+datasets:
+  nutrition5k:
+    role: [mass, calories, protein_g, carbs_g, fat_g, ingredients]
+    label_type: ground_truth
+  food101:
+    role: [classification]
+    label_type: ground_truth
+  unimib2016:
+    role: [segmentation]
+    label_type: ground_truth
+  ecustfd:
+    role: [detection, mass_reference_object]
+    label_type: ground_truth
+  recipe1m:
+    role: [ingredients]
+    label_type: ground_truth
+    auxiliary: true
+  vireo172:
+    role: [classification, ingredients]
+    label_type: ground_truth
+    auxiliary: true
+  menumatch:
+    role: [evaluation_only]
+    label_type: ground_truth
+    auxiliary: true
+
+excluded_datasets:
+  - name: foodx251
+    reason: "unavailable (Kaggle-gated), excluded per project brief"
+  - name: khana
+    reason: "Indian food dataset; image set Kaggle-gated/unavailable, only metadata obtained; excluded per project brief"
+
+model:
+  detection:
+    family: yolo
+    architecture: yolov8n
+    weights: models/yolov8n.pt
+    conf_threshold: 0.25
+    iou_threshold: 0.45
+    imgsz: 640
+  segmentation:
+    backbone: sam_vit_b
+    finetune_dataset: unimib2016
+  classification:
+    backbone: efficientnet_b0
+    pretrain_dataset: food101
+  nutrition:
+    heads: [calories, protein_g, carbs_g, fat_g]
+    train_dataset: nutrition5k

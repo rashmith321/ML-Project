@@ -1,0 +1,232 @@
+{
+  "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/outputs/temp/sample_meal.jpg",
+  "image_size": [
+    640,
+    640
+  ],
+  "preprocessing": {
+    "original_format": "JPEG",
+    "original_size": [
+      640,
+      640
+    ],
+    "processed_size": [
+      640,
+      640
+    ],
+    "channels": 3,
+    "scale_factor": 1.0,
+    "depth": {
+      "available": false
+    }
+  },
+  "num_foods": 1,
+  "instances": [
+    {
+      "food_name": "pancakes",
+      "confidence": 0.0582,
+      "bounding_box": [
+        96.95,
+        81.82,
+        541.01,
+        543.69
+      ],
+      "segmentation": {
+        "mask_area_px": 130501,
+        "mask_coverage_pct": 31.86,
+        "mask_type": "predicted",
+        "polygon": [
+          [
+            301,
+            106
+          ],
+          [
+            168,
+            177
+          ],
+          [
+            120,
+            331
+          ],
+          [
+            195,
+            476
+          ],
+          [
+            337,
+            520
+          ],
+          [
+            470,
+            449
+          ],
+          [
+            518,
+            295
+          ],
+          [
+            443,
+            150
+          ]
+        ]
+      },
+      "estimated_mass_g": 791.7,
+      "estimated_volume": 931.4,
+      "calories_kcal": 900.0,
+      "protein_g": 60.0,
+      "carbohydrates_g": 108.0,
+      "fat_g": 30.0,
+      "additional_nutrients": {
+        "fiber_g": null,
+        "sugar_g": null,
+        "saturated_fat_g": null,
+        "sodium_mg": null,
+        "cholesterol_mg": null
+      },
+      "nutrition_source": "MODEL PREDICTION",
+      "nutrition_confidence": 0.0582,
+      "instance_id": "food_1",
+      "class_id": 72,
+      "bbox": [
+        96.95,
+        81.82,
+        541.01,
+        543.69
+      ],
+      "portion": {
+        "estimated_mass_g": 791.7,
+        "estimated_volume": 931.37,
+        "method_used": "rgb_learned",
+        "mass_source": "derived",
+        "disclaimer": "Monocular RGB photograph: volume is an empirical visual proxy without direct 3D physical ground truth."
+      },
+      "ingredients": {
+        "candidates": [
+          "flour",
+          "milk",
+          "eggs",
+          "baking powder",
+          "sugar",
+          "butter",
+          "maple syrup"
+        ],
+        "source": "recipe_derived"
+      },
+      "nutrients": {
+        "calories": {
+          "value": 900.0,
+          "source": "prediction",
+          "label": "MODEL PREDICTION"
+        },
+        "protein_g": {
+          "value": 60.0,
+          "source": "prediction",
+          "label": "MODEL PREDICTION"
+        },
+        "carbs_g": {
+          "value": 108.0,
+          "source": "prediction",
+          "label": "MODEL PREDICTION"
+        },
+        "fat_g": {
+          "value": 30.0,
+          "source": "prediction",
+          "label": "MODEL PREDICTION"
+        }
+      },
+      "unified_nutrition": {
+        "food_name": "pancakes",
+        "mass_g": {
+          "value": 791.7,
+          "label": "DERIVED",
+          "source": "derived"
+        },
+        "calories_kcal": {
+          "value": 900.0,
+          "label": "MODEL PREDICTION",
+          "source": "prediction"
+        },
+        "protein_g": {
+          "value": 60.0,
+          "label": "MODEL PREDICTION",
+          "source": "prediction"
+        },
+        "carbohydrates_g": {
+          "value": 108.0,
+          "label": "MODEL PREDICTION",
+          "source": "prediction"
+        },
+        "fat_g": {
+          "value": 30.0,
+          "label": "MODEL PREDICTION",
+          "source": "prediction"
+        },
+        "fiber_g": {
+          "value": null,
+          "label": "NOT AVAILABLE",
+          "source": "unavailable"
+        },
+        "sugar_g": {
+          "value": null,
+          "label": "NOT AVAILABLE",
+          "source": "unavailable"
+        },
+        "saturated_fat_g": {
+          "value": null,
+          "label": "NOT AVAILABLE",
+          "source": "unavailable"
+        },
+        "sodium_mg": {
+          "value": null,
+          "label": "NOT AVAILABLE",
+          "source": "unavailable"
+        },
+        "cholesterol_mg": {
+          "value": null,
+          "label": "NOT AVAILABLE",
+          "source": "unavailable"
+        },
+        "additional_nutrients": {},
+        "source": "MODEL PREDICTION",
+        "confidence": 0.05819030478596687
+      }
+    }
+  ],
+  "meal_total": {
+    "calories": {
+      "value": 900.0,
+      "source": "derived",
+      "label": "DERIVED"
+    },
+    "protein_g": {
+      "value": 60.0,
+      "source": "derived",
+      "label": "DERIVED"
+    },
+    "carbs_g": {
+      "value": 108.0,
+      "source": "derived",
+      "label": "DERIVED"
+    },
+    "fat_g": {
+      "value": 30.0,
+      "source": "derived",
+      "label": "DERIVED"
+    },
+    "partial_nutrients": [],
+    "total_mass_g": 791.7,
+    "total_calories": 900.0,
+    "total_protein": 60.0,
+    "total_carbohydrates": 108.0,
+    "total_fat": 30.0,
+    "mass_g": {
+      "value": 791.7,
+      "source": "derived",
+      "label": "DERIVED"
+    }
+  },
+  "annotated_image_path": "C:/Users/rashm/OneDrive/Desktop/ML/app/outputs/nutrition/annotated_meal.png",
+  "detected_image_path": "C:/Users/rashm/OneDrive/Desktop/ML/app/outputs/nutrition/detected_food.png",
+  "segmented_image_path": "C:/Users/rashm/OneDrive/Desktop/ML/app/outputs/nutrition/segmented_food.png",
+  "csv_path": "C:/Users/rashm/OneDrive/Desktop/ML/app/outputs/nutrition/predictions.csv"
+}

@@ -1,0 +1,46 @@
+======================================================================
+  MULTIMODAL FOOD RECOGNITION & MULTI-NUTRIENT ESTIMATION REPORT
+======================================================================
+Image Source   : C:/Users/rashm/OneDrive/Desktop/ML/outputs/temp/sample_meal.jpg
+Image Size     : 640 x 640 px
+Detected Foods : 1
+======================================================================
+
+[ITEM #1] PANCAKES
+----------------------------------------------------------------------
+  Confidence   : 5.8%
+  Bounding Box : [96.95, 81.82, 541.01, 543.69]
+  Segmentation : 130,501 px (31.9% image area)
+  Portion Mass : 791.7 g  [source: derived, method: rgb_learned]
+  Est. Volume  : 931.4 cm3  (Monocular RGB photograph: volume is an empirical visual proxy without direct 3D physical ground truth.)
+  Ingredients  : flour, milk, eggs, baking powder, sugar, butter, maple syrup  [source: recipe_derived]
+  Macronutrients:
+    - Calories      : 900.0 kcal [MODEL PREDICTION]
+    - Protein       : 60.0 g [MODEL PREDICTION]
+    - Carbohydrates : 108.0 g [MODEL PREDICTION]
+    - Total Fat     : 30.0 g [MODEL PREDICTION]
+  Extended Nutrients:
+    - Dietary Fiber : Not available [NOT AVAILABLE]
+    - Total Sugars  : Not available [NOT AVAILABLE]
+    - Saturated Fat : Not available [NOT AVAILABLE]
+    - Sodium        : Not available [NOT AVAILABLE]
+    - Cholesterol   : Not available [NOT AVAILABLE]
+
+======================================================================
+  TOTAL MEAL AGGREGATION
+======================================================================
+  Total Mass        : 791.7 g        [DERIVED]
+  Calories          : 900.0 kcal     [DERIVED]
+  Protein           : 60.0 g         [DERIVED]
+  Carbohydrates     : 108.0 g        [DERIVED]
+  Total Fat         : 30.0 g         [DERIVED]
+
+----------------------------------------------------------------------
+  SCIENTIFIC METHODOLOGY & LIMITATIONS
+----------------------------------------------------------------------
+  - Monocular RGB volume estimates are learned visual proxies.
+  - Exact physical volume and density-based mass derivation are
+    reserved for depth-map inputs and reference-calibrated views.
+  - All nutrient and ingredient values maintain explicit provenance
+    (ground_truth, prediction, derived, reference_lookup, unavailable).
+======================================================================

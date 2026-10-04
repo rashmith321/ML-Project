@@ -1,0 +1,142 @@
+# Dataset location + expectation config for the data-engineering layer.
+#
+# This file is DECLARATIVE ONLY: it says where each dataset is expected to
+# live (relative to data_root/raw/) and what kinds of labels that dataset
+# is documented to provide (per DATASET_PLAN.md), so the report can explain
+# *why* a field is missing (dataset absent vs. dataset present but that
+# label type genuinely doesn't exist for it).
+#
+# It is NOT a claim that the dataset IS present. scripts/inspect_datasets.py
+# always checks the real filesystem and never trusts this file for
+# `available`, counts, or any measured field -- those come only from
+# actually reading the files on disk.
+#
+# raw_subdir is relative to <data_root>/raw/. Some datasets ship under
+# slightly different folder names depending on where you downloaded them
+# from -- `raw_subdir_aliases` lists other names the inspector will also
+# try, in order, before giving up.
+
+datasets:
+  nutrition5k:
+    display_name: "Nutrition5k"
+    raw_subdir: nutrition5k
+    raw_subdir_aliases: [nutrition5k_dataset, Nutrition5k]
+    provides:
+      nutrition_labels: true      # calories, protein_g, carbs_g, fat_g per dish
+      segmentation_labels: false
+      detection_labels: false
+      mass_labels: true           # total dish mass + per-ingredient mass
+      depth: true                 # realsense overhead depth
+      ingredient_info: true       # per-dish ingredient list w/ per-ingredient mass
+    official_split: true
+    split_notes: >
+      Official split lists ship as dish_ids/splits/{rgb,depth}_{train,test}_ids.txt
+      in the Nutrition5k release. Use these verbatim -- do not re-split.
+      A dish has multiple images (overhead RGB, overhead depth, several side-angle
+      video frames); every image for one dish_id must stay in the same split.
+
+  food101:
+    display_name: "Food-101"
+    raw_subdir: food-101
+    raw_subdir_aliases: [food_101, Food-101]
+    provides:
+      nutrition_labels: false
+      segmentation_labels: false
+      detection_labels: false
+      mass_labels: false
+      depth: false
+      ingredient_info: false
+    official_split: true
+    split_notes: >
+      Official split from meta/train.txt + meta/test.txt (image ids per class).
+      Use these verbatim.
+
+  unimib2016:
+    display_name: "UNIMIB2016"
+    raw_subdir: unimib2016
+    raw_subdir_aliases: [UNIMIB2016]
+    provides:
+      nutrition_labels: false
+      segmentation_labels: true   # per-item polygon/mask annotations on tray photos
+      detection_labels: true      # bbox derivable from mask
+      mass_labels: false
+      depth: false
+      ingredient_info: false
+    official_split: false
+    split_notes: >
+      No official train/test split is distributed. Split by tray-photo id
+      (each photo is already a single self-contained sample, so there is no
+      multi-frame leakage risk within this dataset) using a fixed-seed
+      stratified split by dominant food class, documented at split time.
+
+  ecustfd:
+    display_name: "ECUSTFD"
+    raw_subdir: ecustfd
+    raw_subdir_aliases: [ECUSTFD, ECUST_Food_Dataset]
+    provides:
+      nutrition_labels: false
+      segmentation_labels: false
+      detection_labels: true
+      mass_labels: true           # ground-truth weight per dish, calibration-object based
+      depth: false
+      ingredient_info: false
+    official_split: false
+    split_notes: >
+      Each physical dish is photographed from multiple views (e.g. top/side)
+      with a reference calibration object. Group by the shared dish id
+      (filename prefix before the view suffix) so all views of one dish stay
+      in the same split -- never split individual views of the same dish.
+
+  recipe1m:
+    display_name: "Recipe1M+"
+    raw_subdir: recipe1m
+    raw_subdir_aliases: [recipe1m+, Recipe1M, recipe1M]
+    provides:
+      nutrition_labels: false
+      segmentation_labels: false
+      detection_labels: false
+      mass_labels: false
+      depth: false
+      ingredient_info: true       # recipe text -> ingredient list, auxiliary only
+    official_split: true
+    split_notes: >
+      layer1.json carries a "partition" field (train/val/test) per recipe.
+      Use it verbatim; group by recipe id (a recipe's images all share it).
+
+  vireo172:
+    display_name: "Vireo Food-172"
+    raw_subdir: vireo172
+    raw_subdir_aliases: [VireoFood172, vireo_food_172, "Vireo-172"]
+    provides:
+      nutrition_labels: false
+      segmentation_labels: false
+      detection_labels: false
+      mass_labels: false
+      depth: false
+      ingredient_info: true       # multi-label ingredient tags per image
+    official_split: true
+    split_notes: >
+      Official split lists in SplitAndIngreLabel/{TR,VAL,TE}.txt. Use verbatim.
+
+  menumatch:
+    display_name: "MenuMatch"
+    raw_subdir: menumatch
+    raw_subdir_aliases: [MenuMatch]
+    provides:
+      nutrition_labels: true      # restaurant menu calorie labels only (no macros)
+      segmentation_labels: false
+      detection_labels: false
+      mass_labels: false
+      depth: false
+      ingredient_info: false
+    official_split: false
+    split_notes: >
+      Evaluation-only dataset per DATASET_PLAN.md -- never used for training,
+      so there is no train/test split to make. Every available sample is
+      assigned split="eval_only".
+
+excluded_datasets:
+  - name: foodx251
+    reason: "unavailable (Kaggle-gated), excluded per project brief"
+  - name: khana
+    reason: "Indian food dataset; image set Kaggle-gated/unavailable, only metadata obtained; excluded per project brief"

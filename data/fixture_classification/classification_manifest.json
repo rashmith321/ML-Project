@@ -1,0 +1,194 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_000.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_001.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_002.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_003.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_004.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_005.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_006.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/apple_pie/crop_007.jpg",
+    "class_id": 0,
+    "food_class": "apple_pie",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_000.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_001.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_002.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_003.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_004.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_005.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_006.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/caesar_salad/crop_007.jpg",
+    "class_id": 1,
+    "food_class": "caesar_salad",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_000.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_001.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_002.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_003.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_004.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_005.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_006.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/pizza/crop_007.jpg",
+    "class_id": 2,
+    "food_class": "pizza",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_000.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_001.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_002.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_003.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_004.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_005.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_006.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_classification/sushi/crop_007.jpg",
+    "class_id": 3,
+    "food_class": "sushi",
+    "split": "val"
+  }
+]

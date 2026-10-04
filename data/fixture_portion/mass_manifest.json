@@ -1,0 +1,98 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_000.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_000.png",
+    "mass_g": 88.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_001.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_001.png",
+    "mass_g": 100.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_002.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_002.png",
+    "mass_g": 112.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_003.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_003.png",
+    "mass_g": 126.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_004.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_004.png",
+    "mass_g": 141.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_005.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_005.png",
+    "mass_g": 158.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_006.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_006.png",
+    "mass_g": 176.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_007.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_007.png",
+    "mass_g": 195.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_008.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_008.png",
+    "mass_g": 216.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_009.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_009.png",
+    "mass_g": 238.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_010.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_010.png",
+    "mass_g": 261.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_011.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_011.png",
+    "mass_g": 286.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_012.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_012.png",
+    "mass_g": 312.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_013.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_013.png",
+    "mass_g": 340.5,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_014.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_014.png",
+    "mass_g": 369.6,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/images/mass_sample_015.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_portion/masks/mass_mask_015.png",
+    "mass_g": 400.0,
+    "split": "val"
+  }
+]

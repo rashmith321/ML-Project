@@ -1,0 +1,21 @@
+{
+  "stage": "detection",
+  "model": "D4_adamw_cosine_lr",
+  "dataset": "fixture_detection_p2",
+  "backbone": "YOLOv8s",
+  "augmentation": "food_transforms",
+  "optimizer": "AdamW",
+  "learning_rate": 0.002,
+  "batch_size": 16,
+  "epochs_run": 10,
+  "loss": "box+cls+dfl",
+  "val_metric_name": "mAP@50",
+  "val_metric_value": 0.0877,
+  "test_metric_name": "mAP@50",
+  "test_metric_value": "val_only",
+  "training_time_s": 0.0,
+  "checkpoint_path": "models\\detection\\D4_adamw_cosine_lr_best.pt",
+  "notes": "Step 6 Training: AdamW optimizer + Cosine LR schedule + weight decay",
+  "experiment_id": "EXP-010",
+  "timestamp": "2026-09-30T23:12:35"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_seg_orig/images/train/sample_000.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_seg_orig/masks/train/sample_000.png",
+    "split": "train",
+    "mask_type": "ground_truth"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_seg_orig/images/val/sample_000.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_seg_orig/masks/val/sample_000.png",
+    "split": "val",
+    "mask_type": "ground_truth"
+  }
+]

@@ -1,0 +1,13 @@
+stage,metric,baseline,improved,difference,notes
+detection,precision,0.0062,0.0062,0.0,Unchanged. Pretrained YOLOv8n with blacklist filter. No food-specific fine-tuning data available.
+detection,recall,1.0,1.0,0.0,Unchanged.
+detection,map50,0.1555,0.1555,0.0,Unchanged.
+segmentation,mean_iou,0.0,0.992,+0.992,2 -> 24 samples. Cosine LR. DiceBCE adjusted weight. NOTE: metrics on synthetic fixture only.
+segmentation,mean_dice,0.0,0.996,+0.996,Same caveat — fixture only.
+classification,top1_accuracy,0.5,0.7,+0.20,8 -> 40 samples. Label smoothing. Cosine LR. 4 -> 8 classes. Fixture only.
+mass_estimation,mae_g,353.89,57.9,-295.99g,4 -> 40 samples. SmoothL1 loss. Fixture only. R2 still negative (-3.9).
+mass_estimation,r2_score,-118.72,-3.9253,+114.79,Major improvement in R2 from fixture scale-up. Still negative (more data needed).
+nutrition_calories,mae_kcal,400.12,111.0238,-289.10,4 -> 80 samples (different fixtures — not directly comparable). R2=0.6805.
+nutrition_protein,mae_g,18.03,15.7332,-2.30,Same caveat.
+nutrition_carbs,mae_g,40.99,20.683,-20.31,Same caveat.
+nutrition_fat,mae_g,15.01,8.153,-6.86,Same caveat.

@@ -1,0 +1,17 @@
+path: C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_detection_p2
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: banana
+  1: apple
+  2: sandwich
+  3: orange
+  4: broccoli
+  5: carrot
+  6: hot_dog
+  7: pizza
+  8: donut
+  9: cake
+  10: cup
+  11: bowl

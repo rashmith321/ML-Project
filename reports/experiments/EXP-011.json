@@ -1,0 +1,21 @@
+{
+  "stage": "detection",
+  "model": "D5_yolov8s_capacity",
+  "dataset": "fixture_detection_p2",
+  "backbone": "YOLOv8s",
+  "augmentation": "food_transforms",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "batch_size": 8,
+  "epochs_run": 4,
+  "loss": "box+cls+dfl",
+  "val_metric_name": "mAP@50",
+  "val_metric_value": 0.1095,
+  "test_metric_name": "mAP@50",
+  "test_metric_value": "val_only",
+  "training_time_s": 0.0,
+  "checkpoint_path": "models\\detection\\D5_yolov8s_capacity_best.pt",
+  "notes": "Step 4 Model Capacity: Stronger YOLOv8s backbone (11.2M params vs 3.2M)",
+  "experiment_id": "EXP-011",
+  "timestamp": "2026-09-30T23:12:35"
+}

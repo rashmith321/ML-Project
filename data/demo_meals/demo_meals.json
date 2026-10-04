@@ -1,0 +1,67 @@
+[
+  {
+    "id": "meal_1",
+    "title": "Healthy Chicken Bowl with Caesar Salad & Reference Coin",
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/demo_meals/meal_1_chicken_salad.jpg",
+    "depth_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/demo_meals/meal_1_depth.png",
+    "reference_bbox": [
+      30,
+      30,
+      80,
+      80
+    ],
+    "reference_size_cm": 2.5,
+    "preconfigured_boxes": [
+      {
+        "food_name": "grilled_chicken_bowl",
+        "bbox": [
+          80,
+          100,
+          340,
+          400
+        ],
+        "confidence": 0.94
+      },
+      {
+        "food_name": "caesar_salad",
+        "bbox": [
+          360,
+          120,
+          580,
+          380
+        ],
+        "confidence": 0.91
+      }
+    ]
+  },
+  {
+    "id": "meal_2",
+    "title": "Italian Dinner (Pasta Primavera & Apple Pastry)",
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/demo_meals/meal_2_pasta_pastry.jpg",
+    "depth_path": null,
+    "reference_bbox": null,
+    "reference_size_cm": null,
+    "preconfigured_boxes": [
+      {
+        "food_name": "pasta_primavera",
+        "bbox": [
+          80,
+          90,
+          360,
+          410
+        ],
+        "confidence": 0.92
+      },
+      {
+        "food_name": "apple_pastry",
+        "bbox": [
+          380,
+          130,
+          580,
+          370
+        ],
+        "confidence": 0.88
+      }
+    ]
+  }
+]

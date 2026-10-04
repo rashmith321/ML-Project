@@ -1,0 +1,13 @@
+target,metric,value
+mass,mae_g,353.89
+mass,rmse_g,355.33
+mass,r2_score,-118.7206
+mass,samples_evaluated,4
+mass,mean_actual_g,355.75
+mass,mean_predicted_g,1.86
+volume,mae_cm3,416.34
+volume,rmse_cm3,418.04
+volume,r2_score,-118.7267
+volume,samples_evaluated,4
+volume,mean_actual_cm3,418.53
+volume,mean_predicted_cm3,2.19

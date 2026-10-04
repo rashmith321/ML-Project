@@ -1,0 +1,21 @@
+{
+  "stage": "detection",
+  "model": "D3_higher_resolution",
+  "dataset": "fixture_detection_p2",
+  "backbone": "YOLOv8s",
+  "augmentation": "food_transforms",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "batch_size": 16,
+  "epochs_run": 10,
+  "loss": "box+cls+dfl",
+  "val_metric_name": "mAP@50",
+  "val_metric_value": 0.1329,
+  "test_metric_name": "mAP@50",
+  "test_metric_value": "val_only",
+  "training_time_s": 0.0,
+  "checkpoint_path": "models\\detection\\D3_higher_resolution_best.pt",
+  "notes": "Step 5 Resolution: 640x640 input resolution vs 480x480",
+  "experiment_id": "EXP-009",
+  "timestamp": "2026-09-30T23:12:35"
+}

@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-09-26T04:28:19.533120+00:00",
+  "data_root": "C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data",
+  "datasets": [
+    {
+      "name": "nutrition5k",
+      "display_name": "Nutrition5k",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['nutrition5k', 'nutrition5k_dataset', 'Nutrition5k'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "food101",
+      "display_name": "Food-101",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['food-101', 'food_101', 'Food-101'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "unimib2016",
+      "display_name": "UNIMIB2016",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['unimib2016', 'UNIMIB2016'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "ecustfd",
+      "display_name": "ECUSTFD",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['ecustfd', 'ECUSTFD', 'ECUST_Food_Dataset'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "recipe1m",
+      "display_name": "Recipe1M+",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['recipe1m', 'recipe1m+', 'Recipe1M', 'recipe1M'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "vireo172",
+      "display_name": "Vireo Food-172",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['vireo172', 'VireoFood172', 'vireo_food_172', 'Vireo-172'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    },
+    {
+      "name": "menumatch",
+      "display_name": "MenuMatch",
+      "available": false,
+      "location": null,
+      "num_images": null,
+      "num_classes": null,
+      "annotation_format": null,
+      "has_nutrition_labels": null,
+      "has_segmentation_labels": null,
+      "has_detection_labels": null,
+      "has_mass_labels": null,
+      "has_depth": null,
+      "has_ingredient_info": null,
+      "train_test_split_available": null,
+      "split_source": null,
+      "notes": [
+        "Expected under one of: ['menumatch', 'MenuMatch'] relative to C:\\Users\\rashm\\OneDrive\\Desktop\\ML\\data\\raw. None of these directories exist."
+      ]
+    }
+  ],
+  "excluded": "Explicitly excluded per project brief: foodx251 (unavailable, Kaggle-gated), khana (Indian food dataset; image set Kaggle-gated, only metadata obtained)."
+}

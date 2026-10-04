@@ -1,0 +1,21 @@
+{
+  "stage": "nutrition",
+  "model": "MultiNutrientModel",
+  "dataset": "fixture_p2_120samples_3way(train=72)",
+  "backbone": "efficientnet_b0",
+  "augmentation": "RandomHFlip+ColorJitter",
+  "optimizer": "AdamW(wd=1e-4)",
+  "learning_rate": 0.001,
+  "batch_size": 8,
+  "epochs_run": 60,
+  "loss": "NormalizedMultiNutrientLoss",
+  "val_metric_name": "cal_mae_kcal",
+  "val_metric_value": 85.3055,
+  "test_metric_name": "cal_mae_kcal",
+  "test_metric_value": 117.89,
+  "training_time_s": 1105.5,
+  "checkpoint_path": "models/nutrition/phase2_NA_baseline.pt",
+  "notes": "Phase II baseline. CosineAnnealing, early stop patience=12, grad clip=1.0",
+  "experiment_id": "EXP-001",
+  "timestamp": "2026-09-30T21:41:32"
+}

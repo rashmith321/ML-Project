@@ -1,0 +1,50 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/grilled_chicken_bowl/crop_000.jpg",
+    "class_id": 0,
+    "food_class": "grilled_chicken_bowl",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/grilled_chicken_bowl/crop_001.jpg",
+    "class_id": 0,
+    "food_class": "grilled_chicken_bowl",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/pasta_primavera/crop_000.jpg",
+    "class_id": 1,
+    "food_class": "pasta_primavera",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/pasta_primavera/crop_001.jpg",
+    "class_id": 1,
+    "food_class": "pasta_primavera",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/caesar_salad/crop_000.jpg",
+    "class_id": 2,
+    "food_class": "caesar_salad",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/caesar_salad/crop_001.jpg",
+    "class_id": 2,
+    "food_class": "caesar_salad",
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/apple_pastry/crop_000.jpg",
+    "class_id": 3,
+    "food_class": "apple_pastry",
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_cls_orig/apple_pastry/crop_001.jpg",
+    "class_id": 3,
+    "food_class": "apple_pastry",
+    "split": "val"
+  }
+]

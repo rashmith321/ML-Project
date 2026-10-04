@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-09-29T22:10:46",
+  "available_datasets": [],
+  "unavailable_datasets": [
+    "Food101 (101,000 images, 101 classes) \u2014 NOT in data/raw/",
+    "Nutrition5k (>4,000 dishes w/ RGB-D + nutrition GT) \u2014 NOT in data/raw/",
+    "ECUSTFD (2,978 images w/ reference object) \u2014 NOT in data/raw/",
+    "UEC-Food256 (31,651 images, 256 classes) \u2014 NOT in data/raw/",
+    "VireoFood-172 \u2014 NOT in data/raw/",
+    "FoodSeg103 \u2014 NOT in data/raw/",
+    "UNIMIB2016 \u2014 NOT in data/raw/"
+  ],
+  "fixture_data": {
+    "classification": {
+      "num_samples": 8,
+      "num_classes": 4,
+      "train_val_split": "6 train / 2 val",
+      "images": "Synthetic solid-color ellipses (224x224)",
+      "labels": "Synthetic \u2014 NOT real food photos",
+      "issues": [
+        "Far too few samples for meaningful generalization (8 total)",
+        "Synthetic images do not represent real food textures",
+        "Only 4 classes vs 101 required for Food101",
+        "Class distribution is perfectly balanced (not representative)"
+      ]
+    },
+    "segmentation": {
+      "num_samples": 2,
+      "images": "Synthetic solid-color ellipses with ellipse masks",
+      "issues": [
+        "2 samples is grossly insufficient for any neural network",
+        "Ellipse masks on solid backgrounds don't generalize to real food photos",
+        "All-zero output on real images confirms non-generalization"
+      ]
+    },
+    "nutrition": {
+      "num_samples": 16,
+      "num_classes": 4,
+      "split": "12 train / 4 val",
+      "targets": "Calorie-consistent (4*P + 4*C + 9*F)",
+      "issues": [
+        "16 samples insufficient for 4-output regression",
+        "All samples are synthetic with artificially linear calorie-mass relationship",
+        "No real food images \u2014 texture features are meaningless to backbone",
+        "R\u00b2 < 0 on all targets (model worse than predicting mean)"
+      ]
+    },
+    "mass_estimation": {
+      "num_samples": 4,
+      "issues": [
+        "4 samples \u2014 cannot train any meaningful regression",
+        "Neural pred ~2.7g for all real images (not in training distribution)"
+      ]
+    }
+  },
+  "data_leakage_check": {
+    "fixture_data": "No leakage \u2014 fixture train/val splits are correctly separated",
+    "demo_meal_presets": "Used only at inference time, not in training",
+    "real_datasets": "Not available \u2014 leakage cannot occur",
+    "recommendation": "When real datasets are acquired, enforce official Nutrition5k split and check for dish-level group leakage"
+  },
+  "class_imbalance": {
+    "current_fixture": "Perfectly balanced (by construction) \u2014 not representative",
+    "food101_expected": "Balanced (1000 images/class) \u2014 class weighting likely not critical",
+    "nutrition5k_expected": "Some dish-type imbalance expected \u2014 monitor and apply weighted sampling if needed"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-09-29T22:10:46",
+  "ranking": [
+    {
+      "rank": 1,
+      "stage": "SEGMENTATION",
+      "severity": "CRITICAL",
+      "evidence": "IoU=0.0, Dice=0.0. FoodUNet produces all-zero masks on every real image. Trained on 2 synthetic fixture samples.",
+      "impact": "All downstream volume/mass estimation runs in pure bbox-fallback mode without food-pixel information."
+    },
+    {
+      "rank": 2,
+      "stage": "MASS / VOLUME ESTIMATION",
+      "severity": "CRITICAL",
+      "evidence": "R\u00b2=-118.7, MAE=353.9g. Neural mass regressor predicts ~2.7g for all inputs (fixture-trained). Physics fallback (vol\u00d7density) is now the operative path.",
+      "impact": "Inaccurate mass \u2192 inaccurate calorie scaling in heuristic fallback."
+    },
+    {
+      "rank": 3,
+      "stage": "NUTRITION REGRESSION",
+      "severity": "HIGH",
+      "evidence": "R\u00b2<0 for all targets. Model predicts near-zero for all inputs (untrained on real images). Heuristic fallback (150kcal/100g) is now operative.",
+      "impact": "Calorie/protein/carb/fat predictions are heuristic estimates, not model predictions."
+    },
+    {
+      "rank": 4,
+      "stage": "DETECTION",
+      "severity": "MEDIUM",
+      "evidence": "Precision=0.006 (extremely low), Recall=1.0. Pretrained YOLOv8n detects all 80 COCO classes. After blacklist fix, only food-adjacent classes pass. No fine-tuning on food-specific datasets.",
+      "impact": "May miss food items not in COCO 80-class vocab. Bounding boxes may not be tight around food."
+    },
+    {
+      "rank": 5,
+      "stage": "CLASSIFICATION",
+      "severity": "MEDIUM",
+      "evidence": "Top-1=50% on fixture. Model has EfficientNet-B0 backbone with pretrained ImageNet weights \u2014 backbone should generalize if fine-tuned on Food101.",
+      "impact": "Incorrect food class \u2192 wrong ingredient lookup \u2192 wrong reference nutrition profile."
+    }
+  ],
+  "primary_bottleneck": "SEGMENTATION \u2014 producing all-zero masks",
+  "root_cause": "Insufficient training data. All models trained on 2-16 synthetic fixture samples which do not represent real food images.",
+  "recommendation": "PRIMARY: Acquire and load at least one real food dataset (Nutrition5k or Food101). Even a small subset (100-500 real images) will dramatically outperform fixture-trained models. SECONDARY: Retrain segmenter with more epochs and augmentation on enlarged fixture. TERTIARY: Add cosine LR schedule and early stopping to all training pipelines."
+}

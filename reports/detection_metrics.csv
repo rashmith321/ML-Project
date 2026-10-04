@@ -1,0 +1,5 @@
+metric,value
+precision@50,0.0062
+recall@50,1.0
+map@50,0.1555
+map@50:95,0.1428

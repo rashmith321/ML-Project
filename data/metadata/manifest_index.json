@@ -1,0 +1,37 @@
+{
+  "nutrition5k": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "food101": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "unimib2016": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "ecustfd": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "recipe1m": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "vireo172": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  },
+  "menumatch": {
+    "available": false,
+    "manifest_path": null,
+    "num_samples": 0
+  }
+}

@@ -1,0 +1,34 @@
+# Food Object Detection Configuration (Phase 2)
+# Configurable parameters for YOLO-family food detection
+
+model:
+  family: "yolo"
+  architecture: "yolov8n.pt"
+  weights_path: "models/yolov8n.pt"
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  imgsz: 640
+  device: "cpu"
+
+training:
+  epochs: 10
+  batch_size: 8
+  imgsz: 640
+  lr0: 0.01
+  optimizer: "AdamW"
+  save_period: -1
+  project: "outputs/detection/train"
+  name: "exp"
+  patience: 10
+  workers: 2
+
+evaluation:
+  conf_threshold: 0.25
+  iou_threshold: 0.50
+  output_dir: "reports"
+  metrics_json: "reports/detection_metrics.json"
+  metrics_csv: "reports/detection_metrics.csv"
+
+inference:
+  output_predictions: "outputs/detection/predictions.json"
+  annotated_dir: "outputs/detection/annotated"

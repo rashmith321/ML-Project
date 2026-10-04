@@ -1,0 +1,29 @@
+# Food Classification Configuration (Phase 4)
+# Configurable parameters for transfer learning classification on Food-101 / Vireo-172 / Nutrition5k
+
+model:
+  backbone: "efficientnet_b0"
+  pretrained: true
+  num_classes: 101  # Food-101 canonical baseline
+  input_size: [224, 224]
+  weights_path: "models/classification/best_classifier.pt"
+  device: "cpu"
+  top_k: 5
+
+training:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  save_dir: "models/classification"
+  checkpoint_name: "best_classifier.pt"
+
+evaluation:
+  top_k: 5
+  output_dir: "reports"
+  metrics_json: "reports/classification_metrics.json"
+  metrics_csv: "reports/classification_metrics.csv"
+  confusion_matrix_csv: "reports/confusion_matrix.csv"
+
+inference:
+  output_predictions: "outputs/classification/predictions.json"

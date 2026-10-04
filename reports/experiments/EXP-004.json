@@ -1,0 +1,21 @@
+{
+  "stage": "detection",
+  "model": "D1_baseline_transfer",
+  "dataset": "fixture_detection_p2",
+  "backbone": "models/yolov8n.pt",
+  "augmentation": "{'fliplr': 0.5, 'flipud': 0.0, 'degrees': 0.0, 'scale': 0.0, 'hsv_h': 0.0, 'hsv_s': 0.0, 'hsv_v': 0.0, 'mosaic': 0.0}",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "batch_size": 16,
+  "epochs_run": 10,
+  "loss": "box+cls+dfl",
+  "val_metric_name": "mAP@50",
+  "val_metric_value": 0.0,
+  "test_metric_name": "mAP@50",
+  "test_metric_value": "pending",
+  "training_time_s": 221.8,
+  "checkpoint_path": "models\\yolov8n.pt",
+  "notes": "Baseline transfer learning: SGD, standard lr0=0.01, no extra aug",
+  "experiment_id": "EXP-004",
+  "timestamp": "2026-09-30T22:38:57"
+}

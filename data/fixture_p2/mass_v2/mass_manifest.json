@@ -1,0 +1,482 @@
+[
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_000.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_000.png",
+    "mass_g": 88.9,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_001.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_001.png",
+    "mass_g": 88.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_002.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_002.png",
+    "mass_g": 91.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_003.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_003.png",
+    "mass_g": 94.2,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_004.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_004.png",
+    "mass_g": 97.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_005.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_005.png",
+    "mass_g": 97.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_006.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_006.png",
+    "mass_g": 100.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_007.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_007.png",
+    "mass_g": 102.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_008.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_008.png",
+    "mass_g": 106.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_009.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_009.png",
+    "mass_g": 106.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_010.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_010.png",
+    "mass_g": 109.2,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_011.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_011.png",
+    "mass_g": 112.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_012.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_012.png",
+    "mass_g": 115.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_013.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_013.png",
+    "mass_g": 115.7,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_014.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_014.png",
+    "mass_g": 119.1,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_015.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_015.png",
+    "mass_g": 122.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_016.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_016.png",
+    "mass_g": 126.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_017.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_017.png",
+    "mass_g": 126.2,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_018.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_018.png",
+    "mass_g": 129.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_019.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_019.png",
+    "mass_g": 133.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_020.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_020.png",
+    "mass_g": 137.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_021.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_021.png",
+    "mass_g": 137.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_022.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_022.png",
+    "mass_g": 141.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_023.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_023.png",
+    "mass_g": 145.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_024.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_024.png",
+    "mass_g": 149.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_025.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_025.png",
+    "mass_g": 149.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_026.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_026.png",
+    "mass_g": 153.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_027.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_027.png",
+    "mass_g": 158.0,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_028.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_028.png",
+    "mass_g": 162.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_029.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_029.png",
+    "mass_g": 166.8,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_030.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_030.png",
+    "mass_g": 166.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_031.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_031.png",
+    "mass_g": 171.4,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_032.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_032.png",
+    "mass_g": 176.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_033.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_033.png",
+    "mass_g": 180.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_034.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_034.png",
+    "mass_g": 180.7,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_035.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_035.png",
+    "mass_g": 185.5,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_036.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_036.png",
+    "mass_g": 190.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_037.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_037.png",
+    "mass_g": 195.4,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_038.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_038.png",
+    "mass_g": 195.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_039.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_039.png",
+    "mass_g": 200.4,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_040.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_040.png",
+    "mass_g": 205.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_041.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_041.png",
+    "mass_g": 210.8,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_042.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_042.png",
+    "mass_g": 210.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_043.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_043.png",
+    "mass_g": 216.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_044.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_044.png",
+    "mass_g": 221.5,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_045.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_045.png",
+    "mass_g": 227.0,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_046.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_046.png",
+    "mass_g": 227.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_047.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_047.png",
+    "mass_g": 232.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_048.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_048.png",
+    "mass_g": 238.2,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_049.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_049.png",
+    "mass_g": 244.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_050.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_050.png",
+    "mass_g": 244.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_051.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_051.png",
+    "mass_g": 249.8,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_052.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_052.png",
+    "mass_g": 255.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_053.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_053.png",
+    "mass_g": 261.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_054.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_054.png",
+    "mass_g": 267.8,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_055.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_055.png",
+    "mass_g": 267.8,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_056.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_056.png",
+    "mass_g": 274.0,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_057.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_057.png",
+    "mass_g": 280.3,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_058.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_058.png",
+    "mass_g": 286.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_059.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_059.png",
+    "mass_g": 286.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_060.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_060.png",
+    "mass_g": 293.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_061.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_061.png",
+    "mass_g": 299.6,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_062.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_062.png",
+    "mass_g": 306.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_063.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_063.png",
+    "mass_g": 306.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_064.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_064.png",
+    "mass_g": 312.9,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_065.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_065.png",
+    "mass_g": 319.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_066.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_066.png",
+    "mass_g": 326.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_067.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_067.png",
+    "mass_g": 326.5,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_068.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_068.png",
+    "mass_g": 333.5,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_069.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_069.png",
+    "mass_g": 340.5,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_070.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_070.png",
+    "mass_g": 347.7,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_071.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_071.png",
+    "mass_g": 347.7,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_072.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_072.png",
+    "mass_g": 354.9,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_073.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_073.png",
+    "mass_g": 362.2,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_074.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_074.png",
+    "mass_g": 369.6,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_075.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_075.png",
+    "mass_g": 369.6,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_076.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_076.png",
+    "mass_g": 377.1,
+    "split": "train"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_077.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_077.png",
+    "mass_g": 384.6,
+    "split": "val"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_078.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_078.png",
+    "mass_g": 392.3,
+    "split": "test"
+  },
+  {
+    "image_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/images/mass_sample_079.jpg",
+    "mask_path": "C:/Users/rashm/OneDrive/Desktop/ML/data/fixture_p2/mass_v2/masks/mass_mask_079.png",
+    "mass_g": 400.0,
+    "split": "val"
+  }
+]

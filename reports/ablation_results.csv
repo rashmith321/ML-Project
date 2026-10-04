@@ -1,0 +1,6 @@
+config,use_class,use_seg,use_mass,use_depth,cal_mae_kcal,cal_r2,prot_mae_g,prot_r2,carb_mae_g,carb_r2,fat_mae_g,fat_r2
+A_image_only,False,False,False,False,192.9147,0.0112,16.8213,0.1005,27.0598,0.333,9.426,-0.0085
+B_image_class,True,False,False,False,194.4177,-0.0337,16.9221,0.0954,27.55,0.2911,9.4481,-0.018
+C_image_class_seg,True,True,False,False,194.4905,-0.0342,16.9283,0.0947,27.5451,0.2911,9.4497,-0.0184
+D_image_class_seg_mass,True,True,True,False,192.9752,-0.0216,16.8539,0.1032,27.666,0.2891,9.4296,-0.0114
+E_full_multimodal,True,True,True,True,111.0238,0.6805,15.7332,0.2381,20.683,0.6546,8.153,0.2498

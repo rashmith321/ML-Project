@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-29T21:50:05",
+  "important_caveat": "ALL metrics are computed on SYNTHETIC FIXTURE DATA (2-16 samples). Real datasets (Food101, Nutrition5k, ECUSTFD, UEC256) are absent from data/raw/. These metrics reflect only whether the pipeline code is correct, NOT real-world ML performance.",
+  "detection": {
+    "data_source": "Synthetic fixture (YOLO predictions vs fixture bboxes)",
+    "samples": 2,
+    "precision": 0.0062,
+    "recall": 1.0,
+    "map50": 0.1555,
+    "map50_95": 0.1428,
+    "notes": "Using pretrained YOLOv8n (MS-COCO 80-class). Food-class blacklist filter now active."
+  },
+  "segmentation": {
+    "data_source": "Synthetic fixture (2 ellipse images + masks)",
+    "samples": 2,
+    "mean_iou": 0.0,
+    "mean_dice": 0.0,
+    "mean_precision": 0.0,
+    "mean_recall": 0.0,
+    "notes": "FoodUNet trained on 2 synthetic fixture images. All-zero masks on real images."
+  },
+  "classification": {
+    "data_source": "Synthetic fixture (8 samples, 4 classes)",
+    "samples": 8,
+    "top1_accuracy": 0.5,
+    "top5_accuracy": 1.0,
+    "precision_macro": 0.375,
+    "recall_macro": 0.5,
+    "f1_macro": 0.4167,
+    "notes": "Classifier trained on 8 fixture samples (4 classes). Not representative of Food101 101-class performance."
+  },
+  "portion_mass": {
+    "data_source": "Synthetic fixture (4 samples)",
+    "samples": 4,
+    "mae_g": 353.89,
+    "rmse_g": 355.33,
+    "r2_score": -118.7206,
+    "mean_actual_g": 355.75,
+    "mean_predicted_g": 1.86,
+    "notes": "Mass regressor trained on 4 fixture samples. Plausibility guard now added (falls back to vol*density if pred outside [10,2000]g)."
+  },
+  "nutrition": {
+    "data_source": "Synthetic fixture (4 samples)",
+    "samples": 4,
+    "calories_kcal": {
+      "mae": 400.12,
+      "rmse": 411.32,
+      "r2": -17.6281
+    },
+    "protein_g": {
+      "mae": 18.03,
+      "rmse": 22.98,
+      "r2": -1.5995
+    },
+    "carbohydrates_g": {
+      "mae": 40.99,
+      "rmse": 49.71,
+      "r2": -2.1229
+    },
+    "fat_g": {
+      "mae": 15.01,
+      "rmse": 15.83,
+      "r2": -8.8919
+    },
+    "notes": "MultiNutrientModel trained on 4 fixture samples. Mean-predicted near zero (untrained backbone)."
+  }
+}

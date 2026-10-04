@@ -1,0 +1,25 @@
+# Data (never commit)
+data/raw/**
+data/processed/**
+!data/**/.gitkeep
+
+# Models / weights
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Outputs
+outputs/**
+!outputs/.gitkeep
+runs/**
+
+# Env
+.env
+*.egg-info/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

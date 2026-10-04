@@ -1,0 +1,21 @@
+{
+  "stage": "detection",
+  "model": "YOLOv8n",
+  "dataset": "fixture_detection_p2",
+  "backbone": "YOLOv8n-COCO",
+  "augmentation": "none",
+  "optimizer": "None",
+  "learning_rate": "None",
+  "batch_size": "None",
+  "epochs_run": 0,
+  "loss": "None",
+  "val_metric_name": "mAP@50",
+  "val_metric_value": 0.0,
+  "test_metric_name": "mAP@50",
+  "test_metric_value": "pending",
+  "training_time_s": 0.0,
+  "checkpoint_path": "models/yolov8n.pt",
+  "notes": "Step 1 Baseline: Pretrained YOLOv8n without fine-tuning on food fixture.",
+  "experiment_id": "EXP-003",
+  "timestamp": "2026-09-30T22:35:13"
+}
